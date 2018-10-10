@@ -14,25 +14,19 @@
  */
 
 #include <stdio.h>
-#include <errno.h>
 #include <stdlib.h>
-#include <unistd.h>
-#include <string.h>
 
 #include "world.h"
-#include "utils.h"
 
-int
-main(int argc, char *argv[])
+void
+banner(void)
 {
-	if (argc <= 1) {
-		usage(argv[0]);
-	}
-	for (ssize_t i = 0x1; i < argc; i++) {
-		if (write(0x0, argv[i], strlen(argv[i])) < 0 ||
-			write(0x0, "\n", 0x1) < 0) {
-			perror(argv[i]);
-		}
-	}
-	return (EXIT_SUCCESS);
+	printf("JPG to Worldfile generator - V%s\n\n", VERSION);
+}
+
+void
+usage(const char *name)
+{
+	printf("Usage: %s <jpeg list>\n", name);
+	exit(EXIT_FAILURE);
 }
