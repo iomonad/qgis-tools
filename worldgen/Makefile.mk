@@ -1,5 +1,5 @@
 WORLD_DIR    = worldgen/
-WORLD_FILES  = world.c utils.c apply.c
+WORLD_FILES  = lambert.c
 WORLDCFLAGS  = -I./$(WORLD_DIR)
 WORLD_SRC    = $(addprefix $(WORLD_DIR), $(WORLD_FILES))
 WORLD_TARGET = world

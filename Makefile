@@ -4,14 +4,14 @@
 #
 
 CC      = gcc
-CFLAGS  = -Wall -Wextra -Werror -O2
+CFLAGS  = -dD -Wall -Wextra -Werror -O2
 RM      = /bin/rm
 RMFLAGS = -rf
 TARGETS = $(WORLD_TARGET)
 STRIPER = /usr/bin/strip
 STRIPC  = -s
 
-include worldgen/world.mk
+include worldgen/Makefile.mk
 
 all: world
 
