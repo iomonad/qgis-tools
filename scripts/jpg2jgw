@@ -1,0 +1,33 @@
+#!/usr/bin/perl -w
+
+use Image::Size qw(imgsize);
+use File::Basename;
+
+use constant {
+	HYPOTHETIC_ORIG_X =>  0x8EAD0,
+	HYPOTHETIC_ORIG_Y =>  0x117D70,
+	PANE_OFFSET_X     =>  0x258,
+	PANE_OFFSET_Y     => -0x190
+};
+
+sub usage {
+	print "Usage: ./".$0." <jpeg files>\n"
+}
+
+sub process {
+	my ($ref) = @_;
+	my $base = basename($ref);
+
+	print $base."\n";
+}
+
+sub main {
+	if ($#ARGV < 0) {
+		exit (usage);
+	}
+	foreach my $f (@ARGV) {
+		process ($f)
+	}
+}
+
+exit(main(@ARGV));
