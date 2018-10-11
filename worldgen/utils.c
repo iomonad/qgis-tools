@@ -5,7 +5,7 @@
  * information systems (GIS) to georeference
  * raster map images.
  *
- * (c) iomonad - <clement@trosa.io>
+ * (c) 2018 iomonad - <clement@trosa.io>
  *
  * This is a part of the IGC toolkit
  * (https://github.com/iomonad/igc)
