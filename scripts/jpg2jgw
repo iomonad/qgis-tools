@@ -19,6 +19,7 @@
 
 use threads;
 use File::Basename;
+use Getopt::Long;
 
 use constant {
 	HYPOTHETIC_ORIG_X =>  0x8EAD0,
@@ -27,8 +28,12 @@ use constant {
 	PANE_OFFSET_Y     => -0x190
 };
 
+my $dirbased = "";
+GetOptions ("directory=s"  => \$dirbased)
+	or die("Invalid arguments.");
+
 sub usage {
-	print "Usage: ./".$0." <jpeg files>\n"
+	print "Usage: ".$0." <jpeg files>\n"
 }
 
 sub sjpg {
@@ -79,17 +84,24 @@ sub process {
 				}
 				apply($target, @dim, @lamb) or
 					die "Error while processing panel.";
-			} else { die "Invalid image file." }
-		} else { die "Invalid lambert format." }
-	} else { die "Invalid image extension." }
+			} else { die "Invalid image file ($base). " }
+		} else { die "Invalid lambert format ($base)." }
+	} else { die "Invalid image extension ($base)." }
 }
 
 sub main {
 	my @jobs;
+	my @files;
+	my @targets;
+
 	if ($#ARGV < 0) {
 		exit (usage);
 	}
-	foreach my $f (@ARGV) {
+	if ($dirbased ne "") {
+		@files = glob($dirbased) or die "Not a valid directory."
+	}
+	@targets = (scalar($files) eq 0) ? @ARGV : @files;
+	foreach my $f (@targets) {
 		push @jobs, threads->create(sub {
 			&process ($f)
 		});
