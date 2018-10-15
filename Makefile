@@ -7,15 +7,13 @@ CC      = gcc
 CFLAGS  = -dD -Wall -Wextra -Werror -O2
 RM      = /bin/rm
 RMFLAGS = -rf
-TARGETS = $(WORLD_TARGET)
+TARGETS =
 STRIPER = /usr/bin/strip
 STRIPC  = -s
 
-include worldgen/Makefile.mk
-
-all: world
+all:
 
 clean:
 	$(RM) $(RMFLAGS) $(TARGETS)
 
-.PHONY: world
+.PHONY:
