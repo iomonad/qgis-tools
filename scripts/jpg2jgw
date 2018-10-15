@@ -1,6 +1,22 @@
 #!/usr/bin/perl -w
+#
+# Convert JPEG map raster to Lambert 1 (EPSG:27571)
+# worldfile format.
+#
+# (c) 2018 iomonad - <github.com/iomonad/igc>
+#
+# Dependencies:
+#   Perl 5, v.26, (v5.26.0) built for x86_64-linux-gnu-thread-multi
+#
+# Description:
+#   Image to WorldFile generator, a six line
+#   plain text sidecar file used by geographic
+#   information systems (GIS) to georeference
+#   raster map images.
+#   In my use case, this script allows me to
+#   do area assembly on Qgis.
+#
 
-use Image::Size qw(imgsize);
 use File::Basename;
 
 use constant {
@@ -14,11 +30,57 @@ sub usage {
 	print "Usage: ./".$0." <jpeg files>\n"
 }
 
+sub sjpg {
+  return unless $_[0];
+    my ($width, $height);
+    ($height, $width) =
+		unpack( "nn", $1 ) if
+   ($_[0] =~ /\xFF\xC0...(....)/);
+  return ($width, $height);
+}
+
+sub rf { do {
+	local(@ARGV, $/) = $_[0]; <>
+  };
+}
+
+sub apply {
+	my ($target, $height, $width, $x, $y) = @_;
+	my ($xn, $yn) = ($x + 1, $y + 1);
+	my ($gx, $gy)   = ((HYPOTHETIC_ORIG_X + $x) * PANE_OFFSET_X,
+					   (HYPOTHETIC_ORIG_Y + $y) * PANE_OFFSET_Y);
+	my ($gxb, $gyb) = ((HYPOTHETIC_ORIG_X + $xn) * PANE_OFFSET_X,
+					   (HYPOTHETIC_ORIG_Y + $yn) * PANE_OFFSET_Y);
+	my ($psx, $psy) = ((($gxb - $gx) / $width),
+					   (($gyb - $gy) / $height));
+
+	open(my $fh, '>', $target) or die "Could not open file '$target' $!";
+	print $fh $psx."\n0\n0\n".$psy."\n".$gx."\n".$gy."\n";
+	close $fh;
+	print "Successfuly wrote worldfile: ".$target.".\n"
+}
+
 sub process {
 	my ($ref) = @_;
 	my $base = basename($ref);
+	my $target = $ref;
+	my @lamb = ($base =~ m/^([^-]*)-([^-]*)-.*$/g);
 
-	print $base."\n";
+	if (($target =~ s/jpg/jgw/g) == 1) {
+		if (scalar(@lamb) eq 2) {
+			print "Generating ".$target.
+				" for IGN (x:".$lamb[0].
+				";y:".$lamb[1].").\n";
+		    my @dim = sjpg(rf($ref));
+			if (scalar(@dim) eq 2) {
+				if (index("!", $base) ne -1) {
+					@dim = map {$_ + 0.5} @dim;
+				}
+				apply($target, @dim, @lamb) or
+					die "Error while processing panel.";
+			} else { die "Invalid image file." }
+		} else { die "Invalid lambert format." }
+	} else { die "Invalid image extension." }
 }
 
 sub main {
@@ -26,7 +88,7 @@ sub main {
 		exit (usage);
 	}
 	foreach my $f (@ARGV) {
-		process ($f)
+		process ($f);
 	}
 }
 
