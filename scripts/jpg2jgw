@@ -17,6 +17,7 @@
 #   do area assembly on Qgis.
 #
 
+use threads;
 use File::Basename;
 
 use constant {
@@ -84,12 +85,16 @@ sub process {
 }
 
 sub main {
+	my @jobs;
 	if ($#ARGV < 0) {
 		exit (usage);
 	}
 	foreach my $f (@ARGV) {
-		process ($f);
+		push @jobs, threads->create(sub {
+			&process ($f)
+		});
 	}
+	$_->join for @jobs;
 }
 
 exit(main(@ARGV));
