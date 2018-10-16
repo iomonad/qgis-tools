@@ -46,17 +46,16 @@ sub rf { do {
 }
 
 sub apply {
-	my ($target, $height, $width, $x, $y) = @_;
+	my ($target, $width, $height, $x, $y) = @_;
 	my ($xn, $yn) = ($x + 1, $y + 1);
-	my ($gx, $gy)   = ((HYPOTHETIC_ORIG_X + $x) * PANE_OFFSET_X,
-					   (HYPOTHETIC_ORIG_Y + $y) * PANE_OFFSET_Y);
-	my ($gxb, $gyb) = ((HYPOTHETIC_ORIG_X + $xn) * PANE_OFFSET_X,
-					   (HYPOTHETIC_ORIG_Y + $yn) * PANE_OFFSET_Y);
+	my ($gx, $gy)   = (HYPOTHETIC_ORIG_X + ($x  * PANE_OFFSET_X),
+					   HYPOTHETIC_ORIG_Y + ($y  * PANE_OFFSET_Y));
+	my ($gxb, $gyb) = (HYPOTHETIC_ORIG_X + ($xn * PANE_OFFSET_X),
+					   HYPOTHETIC_ORIG_Y + ($yn * PANE_OFFSET_Y));
 	my ($psx, $psy) = ((($gxb - $gx) / $width),
 					   (($gyb - $gy) / $height));
-	
 	open(my $fh, '>', $target) or die "Could not open file '$target' $!";
-	print $fh $psx."\n0\n0\n".$psy."\n".$gx."\n".$gy."\n";
+	printf $fh "%.14f\n0\n0\n%.14f\n".$gx."\n".$gy."\n", $psx, $psy;
 	close $fh;
 	print "Successfuly wrote worldfile: ".$target.".\n"
 }
