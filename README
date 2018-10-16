@@ -6,6 +6,14 @@ Some utilities to manipulate "Inspection générale des carrières"'s
 underground surveys.
 
 Descriptions:
+---
+jpg2jgw:
+  Image to WorldFile generator, a six line
+  plain text sidecar file used by geographic
+  information systems (GIS) to georeference
+  raster map images.
+  In my use case, this script allows me to
+  do area assembly on Qgis.
 
 Supported platforms:
 
