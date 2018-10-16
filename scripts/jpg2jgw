@@ -32,12 +32,12 @@ sub usage {
 }
 
 sub sjpg {
-  return unless $_[0];
+	return unless $_[0];
     my ($width, $height);
     ($height, $width) =
 		unpack( "nn", $1 ) if
-   ($_[0] =~ /\xFF\xC0...(....)/);
-  return ($width, $height);
+		($_[0] =~ /\xFF\xC0...(....)/);
+	return ($width, $height);
 }
 
 sub rf { do {
@@ -49,11 +49,11 @@ sub apply {
 	my ($target, $width, $height, $x, $y) = @_;
 	my ($xn, $yn) = ($x + 1, $y + 1);
 	my ($gx, $gy)   = (HYPOTHETIC_ORIG_X + ($x  * PANE_OFFSET_X),
-					   HYPOTHETIC_ORIG_Y + ($y  * PANE_OFFSET_Y));
+                       HYPOTHETIC_ORIG_Y + ($y  * PANE_OFFSET_Y));
 	my ($gxb, $gyb) = (HYPOTHETIC_ORIG_X + ($xn * PANE_OFFSET_X),
-					   HYPOTHETIC_ORIG_Y + ($yn * PANE_OFFSET_Y));
+                       HYPOTHETIC_ORIG_Y + ($yn * PANE_OFFSET_Y));
 	my ($psx, $psy) = ((($gxb - $gx) / $width),
-					   (($gyb - $gy) / $height));
+                       (($gyb - $gy) / $height));
 	open(my $fh, '>', $target) or die "Could not open file '$target' $!";
 	printf $fh "%.14f\n0\n0\n%.14f\n".$gx."\n".$gy."\n", $psx, $psy;
 	close $fh;
@@ -93,7 +93,7 @@ sub main {
 	foreach my $f (@ARGV) {
 		push @jobs, threads->create(sub {
 			&process ($f)
-		});
+									});
 	}
 	$_->join for @jobs;
 }
