@@ -19,7 +19,6 @@
 
 use threads;
 use File::Basename;
-use Getopt::Long;
 
 use constant {
 	HYPOTHETIC_ORIG_X =>  0x8EAD0,
@@ -27,10 +26,6 @@ use constant {
 	PANE_OFFSET_X     =>  0x258,
 	PANE_OFFSET_Y     => -0x190
 };
-
-my $dirbased = "";
-GetOptions ("directory=s"  => \$dirbased)
-	or die("Invalid arguments.");
 
 sub usage {
 	print "Usage: ".$0." <jpeg files>\n"
@@ -59,7 +54,7 @@ sub apply {
 					   (HYPOTHETIC_ORIG_Y + $yn) * PANE_OFFSET_Y);
 	my ($psx, $psy) = ((($gxb - $gx) / $width),
 					   (($gyb - $gy) / $height));
-
+	
 	open(my $fh, '>', $target) or die "Could not open file '$target' $!";
 	print $fh $psx."\n0\n0\n".$psy."\n".$gx."\n".$gy."\n";
 	close $fh;
@@ -92,16 +87,11 @@ sub process {
 sub main {
 	my @jobs;
 	my @files;
-	my @targets;
 
 	if ($#ARGV < 0) {
 		exit (usage);
 	}
-	if ($dirbased ne "") {
-		@files = glob($dirbased) or die "Not a valid directory."
-	}
-	@targets = (scalar($files) eq 0) ? @ARGV : @files;
-	foreach my $f (@targets) {
+	foreach my $f (@ARGV) {
 		push @jobs, threads->create(sub {
 			&process ($f)
 		});
