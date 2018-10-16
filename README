@@ -1,3 +1,15 @@
-igc
+igc toolkit
+---------
+author: Clement Trosa - <iomonad>
 
-Outils pour travailler avec les planches IGC.
+Some utilities to manipulate "Inspection générale des carrières"'s
+underground surveys.
+
+Descriptions:
+
+Supported platforms:
+
++  OpenBSD
++  Linux
+
+- Windows - Need to install perl plaform on your system.
