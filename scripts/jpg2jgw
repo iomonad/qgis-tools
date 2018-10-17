@@ -80,9 +80,13 @@ sub process {
               . $lamb[1] . ").\n";
             my @dim = sjpg( rf($ref) );
             if ( scalar(@dim) eq 2 ) {
-                if ( index( "!", $base ) ne -1 ) {
-                    @dim = map { $_ + 0.5 } @dim;
+                for ( my $i = 0 ; $i < scalar(@dim) ; $i++ ) {
+                    if ( index( $lamb[$i], "!" ) ne -1 ) {
+                        $lamb[$i] = ( split /\!/, $lamb[$i] )[0];
+                        $lamb[$i] += 0.5;
+                    }
                 }
+                print $lamb[0] . " - " . $lamb[1];
                 apply( $target, @dim, @lamb )
                   or die "Error while processing panel.";
             }
