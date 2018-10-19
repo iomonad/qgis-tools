@@ -3,17 +3,19 @@
 #  https://github.com/iomonad/igc
 #
 
-CC      = gcc
+CC      = clang
 CFLAGS  = -dD -Wall -Wextra -Werror -O2
 RM      = /bin/rm
 RMFLAGS = -rf
-TARGETS =
+TARGETS = $(AS_TARGET)
 STRIPER = /usr/bin/strip
 STRIPC  = -s
 
-all:
+include assembler/Makefile.mk
+
+all: assembler
 
 clean:
 	$(RM) $(RMFLAGS) $(TARGETS)
 
-.PHONY:
+.PHONY: assembler

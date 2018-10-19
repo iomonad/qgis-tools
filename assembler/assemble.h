@@ -1,6 +1,4 @@
 #ifndef ASSEMBLE_H
 #define ASSEMBLE_H
 
-
-
-#endif
+#endif /* ASSEMBLE_H */

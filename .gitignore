@@ -54,3 +54,4 @@ dkms.conf
 # Project related
 world
 *.jgw
+assemble
