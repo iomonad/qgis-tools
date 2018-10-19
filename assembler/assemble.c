@@ -10,6 +10,10 @@
  */
 
 #include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <string.h>
+#include <assert.h>
 #include <vips/vips.h>
 
 #include "assemble.h"
@@ -22,12 +26,23 @@ getdim(const char *fname, Dim *dim)
 	if (!(file = vips_image_new_from_file(fname, NULL))) {
 		vips_error_exit( NULL );
 	}
-	printf("File: %.40s - Height:%.7d Width:%.7d\n", fname,
-	  vips_image_get_height(file),
-	  vips_image_get_width(file));
 	dim->width += vips_image_get_height(file);
 	dim->height += vips_image_get_width(file);
 	g_object_unref(file);
+}
+
+static void
+populate(Dim *dim, const char *target)
+{
+	VipsImage *outfile = NULL;
+
+	if (vips_embed(NULL, &outfile, 0, 0, dim->width,
+		dim->height, NULL)) {
+		vips_error_exit(NULL);
+	}
+	if (vips_image_write_to_file(outfile, target, NULL)) {
+		vips_error_exit(NULL);
+	}
 }
 
 int
@@ -41,6 +56,8 @@ main(int argc, char *argv[])
 	for (ssize_t i = 1; i < argc; i++) {
 		getdim(argv[i], &dim);
 	}
-	printf("\nTotal Stuff: %lld x %lld\n", dim.height, dim.width);
+	assert(dim.height != 0 && dim.width != 0);
+	populate(&dim, DEFAULT_OUT);
+	printf("\nGeneration tile: %lld x %lld\n", dim.height, dim.width);
 	return 0;
 }

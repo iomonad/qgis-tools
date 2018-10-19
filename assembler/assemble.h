@@ -6,4 +6,6 @@ typedef struct Sdim {
 	long long width;
 } Dim;
 
+#define DEFAULT_OUT "vips-out.jpg"
+
 #endif /* ASSEMBLE_H */
