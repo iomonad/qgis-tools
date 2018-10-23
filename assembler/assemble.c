@@ -33,6 +33,11 @@ prepare(Tile *tile, const char * const fname)
 static VipsImage*
 populate(const char *outfile)
 {
+		Tile *p = NULL;
+
+		SLIST_FOREACH(p, &head, next) {
+				printf("Got dimensions %llu - %llu\n", p->dim.height, p->dim.width);
+		}
 		printf("Writing to outfile: %s\n", outfile);
 		return NULL;
 }
@@ -40,8 +45,9 @@ populate(const char *outfile)
 int
 main(int argc, char *argv[])
 {
-		SLIST_INIT(&head);
+		VipsImage *output = NULL;
 
+		SLIST_INIT(&head);
 		if (VIPS_INIT(argv[0])) {
 				vips_error_exit(NULL);
 		}
@@ -54,6 +60,8 @@ main(int argc, char *argv[])
 				prepare(tile, argv[i]);
 				SLIST_INSERT_HEAD(&head, tile, next);
 		}
-		populate(DEFAULT_OUT);
+		if (!(output = populate(DEFAULT_OUT))) {
+				vips_error_exit(NULL);
+		}
 		return 0;
 }
