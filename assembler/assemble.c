@@ -19,45 +19,41 @@
 #include "assemble.h"
 
 static void
-getdim(const char *fname, Dim *dim)
+prepare(Tile *tile, const char * const fname)
 {
-	VipsImage *file = NULL;
+	tile->aref = NULL;
 
-	if (!(file = vips_image_new_from_file(fname, NULL))) {
+	if (!(tile->aref = vips_image_new_from_file(fname, NULL))) {
 		vips_error_exit( NULL );
 	}
-	dim->width += vips_image_get_height(file);
-	dim->height += vips_image_get_width(file);
-	g_object_unref(file);
+	tile->dim.height = vips_image_get_height(tile->aref);
+	tile->dim.width  = vips_image_get_width(tile->aref);
 }
 
-static void
-populate(Dim *dim, const char *target)
+static VipsImage*
+populate(const char *outfile)
 {
-	VipsImage *outfile = NULL;
-
-	if (vips_embed(NULL, &outfile, 0, 0, dim->width,
-		dim->height, NULL)) {
-		vips_error_exit(NULL);
-	}
-	if (vips_image_write_to_file(outfile, target, NULL)) {
-		vips_error_exit(NULL);
-	}
+	printf("Writing to outfile: %s\n", outfile);
+	return NULL;
 }
 
 int
 main(int argc, char *argv[])
 {
-	static Dim dim = {0x0, 0x0};
+	SLIST_INIT(&head);
 
 	if (VIPS_INIT(argv[0])) {
 		vips_error_exit(NULL);
 	}
 	for (ssize_t i = 1; i < argc; i++) {
-		getdim(argv[i], &dim);
+		Tile *tile = NULL;
+
+		if (!(tile = (Tile*)malloc(sizeof(Tile)))) {
+			vips_error_exit( NULL );
+		}
+		prepare(tile, argv[i]);
+		SLIST_INSERT_HEAD(&head, tile, next);
 	}
-	assert(dim.height != 0 && dim.width != 0);
-	populate(&dim, DEFAULT_OUT);
-	printf("\nGeneration tile: %lld x %lld\n", dim.height, dim.width);
+	populate(DEFAULT_OUT);
 	return 0;
 }
