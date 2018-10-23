@@ -40,7 +40,7 @@ finalsize(void)
 				final.height += p->dim.height;
 				final.width  += p->dim.width;
 		}
-		assert((final.height + final.width) > 0xff);
+		assert((final.height*final.width) > 0x7F7A60);
 		return (final);
 }
 
@@ -51,10 +51,12 @@ populate(const char *outfile)
 		Dim size = finalsize();
 
 		SLIST_FOREACH(p, &head, next) {
-				printf("Got dimensions %llu - %llu\n", p->dim.height, p->dim.width);
+				printf("Got dimensions %llu - %llu\n",
+					   p->dim.height, p->dim.width);
 		}
-		printf("Writing to outfile: %s with dimension: %lld - %lld\n", outfile, size.height, size.width);
-		return NULL;
+		printf("Writing to outfile: %s with dimension: %lld - %lld\n",
+			   outfile, size.height, size.width);
+		return (NULL);
 }
 
 int
@@ -78,5 +80,5 @@ main(int argc, char *argv[])
 		if (!(output = populate(DEFAULT_OUT))) {
 				vips_error_exit(NULL);
 		}
-		return 0;
+		return (EXIT_SUCCESS);
 }
