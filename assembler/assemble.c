@@ -40,7 +40,7 @@ finalsize(void)
 				final.height += p->dim.height;
 				final.width  += p->dim.width;
 		}
-		assert((final.height*final.width) > 0x7F7A60);
+		assert((final.height * final.width) > 0x7F7A60);
 		return (final);
 }
 
