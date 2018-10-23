@@ -62,16 +62,39 @@ static VipsImage* __attribute__ ((hot))
 		populate(const char *outfile)
 {
 		Tile *p  = NULL;
+		VipsImage *out = NULL;
 		Dim size = finalsize(), offsets = {0x0, 0x0};
 
 		SLIST_FOREACH(p, &head, next) {
 				printf("Got dimensions %llu - %llu\n",
 					   p->dim.height, p->dim.width);
 				APPLYOFFSETS(offsets, p);
+				if ((offsets.height - p->dim.height) ^ 0
+					|| (offsets.width - p->dim.width) ^ 0) {
+						if (vips_embed(p->aref, &out, size.width, size.height,
+							offsets.width, offsets.height,
+							"extend", VIPS_EXTEND_COPY, NULL)) {
+							vips_error_exit(NULL);
+						}
+				} else {
+						if (vips_embed(p->aref, &out, size.width, size.height,
+							offsets.width, offsets.height,
+							"extend", VIPS_EXTEND_COPY, NULL)) {
+								vips_error_exit(NULL);
+						}
+				}
 		}
 		printf("Writing to outfile: %s with dimension: %lld - %lld\n",
 			   outfile, size.height, size.width);
-		return (NULL);
+		return (out);
+}
+
+static void
+save(const VipsImage *image, const char *target)
+{
+		if (vips_image_write_to_file((VipsImage*)image, target, NULL)) {
+				vips_error_exit(NULL);
+		}
 }
 
 int
@@ -95,5 +118,6 @@ main(int argc, char *argv[])
 		if (!(output = populate(DEFAULT_OUT))) {
 				vips_error_exit(NULL);
 		}
+		save(output, DEFAULT_OUT);
 		return (EXIT_SUCCESS);
 }
