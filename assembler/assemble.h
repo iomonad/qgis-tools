@@ -16,6 +16,8 @@ typedef struct Tile {
 } Tile;
 
 #define DEFAULT_OUT "vips-out.jpg"
+#define APPLYOFFSETS(ref, tile) ref.height += tile->dim.height;\
+	                            ref.width  += tile->dim.width
 
 SLIST_HEAD( , Tile) head;
 

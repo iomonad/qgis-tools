@@ -18,6 +18,21 @@
 
 #include "assemble.h"
 
+static void __attribute__ ((destructor))
+cleanup(void)
+{
+		Tile *p = NULL;
+
+		while (!SLIST_EMPTY(&head))
+		{
+				p = SLIST_FIRST(&head);
+				SLIST_REMOVE_HEAD(&head, next);
+				g_object_unref(p->aref);
+				free(p);
+		}
+		printf("Cleaned up, exiting ...\n");
+}
+
 static void
 prepare(Tile *tile, const char * const fname)
 {
@@ -33,26 +48,26 @@ prepare(Tile *tile, const char * const fname)
 static Dim __attribute__ ((const))
 finalsize(void)
 {
-		Dim final = {0x0, 0x0};
+		Dim  final = {0x0, 0x0};
 		Tile *p;
 
 		SLIST_FOREACH(p, &head, next) {
-				final.height += p->dim.height;
-				final.width  += p->dim.width;
+				APPLYOFFSETS(final, p);
 		}
 		assert((final.height * final.width) > 0x7F7A60);
 		return (final);
 }
 
 static VipsImage* __attribute__ ((hot))
-populate(const char *outfile)
+		populate(const char *outfile)
 {
 		Tile *p  = NULL;
-		Dim size = finalsize();
+		Dim size = finalsize(), offsets = {0x0, 0x0};
 
 		SLIST_FOREACH(p, &head, next) {
 				printf("Got dimensions %llu - %llu\n",
 					   p->dim.height, p->dim.width);
+				APPLYOFFSETS(offsets, p);
 		}
 		printf("Writing to outfile: %s with dimension: %lld - %lld\n",
 			   outfile, size.height, size.width);
