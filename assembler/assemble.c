@@ -30,15 +30,30 @@ prepare(Tile *tile, const char * const fname)
 		tile->dim.width  = vips_image_get_width(tile->aref);
 }
 
-static VipsImage*
+static Dim __attribute__ ((const))
+finalsize(void)
+{
+		Dim final = {0x0, 0x0};
+		Tile *p;
+
+		SLIST_FOREACH(p, &head, next) {
+				final.height += p->dim.height;
+				final.width  += p->dim.width;
+		}
+		assert((final.height + final.width) > 0xff);
+		return (final);
+}
+
+static VipsImage* __attribute__ ((hot))
 populate(const char *outfile)
 {
-		Tile *p = NULL;
+		Tile *p  = NULL;
+		Dim size = finalsize();
 
 		SLIST_FOREACH(p, &head, next) {
 				printf("Got dimensions %llu - %llu\n", p->dim.height, p->dim.width);
 		}
-		printf("Writing to outfile: %s\n", outfile);
+		printf("Writing to outfile: %s with dimension: %lld - %lld\n", outfile, size.height, size.width);
 		return NULL;
 }
 
