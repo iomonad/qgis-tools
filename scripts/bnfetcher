@@ -4,11 +4,35 @@
 # (c) iomonad - <clement@trosa.io>
 #
 # Description: BNF.fr ressource feching script.
-# Dependencies: ???
+# Dependencies:
+#  - Python 2.7
+#  - mozilla/geckodriver: (LATEST)
 #
 
-def main():
-    print "Hello BNF"
+import os
+import sys
+from selenium import webdriver
+
+# Referential url with document variable
+scheme = "https://bibliotheques-specialisees.paris.fr/ark:/73873/pf0000855431/{:04d}/v0001.simple"
+
+# Generate target from website logic
+def target(page):
+    return scheme.format(page)
+
+class Crawler:
+    """Generic boilerplate for naive
+    crawling directives"""
+    def __init__(self, driver):
+        self.driver = driver
+    def download(self, res):
+        assert res >= 1
+        self.driver.get(target(res))
+    def compute(self, rate):
+        for doc in range(1, rate):
+            print doc
+            self.download(doc)
 
 if __name__ == "__main__":
-    main()
+    crawler = Crawler(webdriver.Firefox())
+    crawler.compute(4)
