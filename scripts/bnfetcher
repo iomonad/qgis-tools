@@ -9,9 +9,10 @@
 #  - mozilla/geckodriver: (LATEST)
 #
 
-import os
-import sys
+import os, sys, time
 from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
 
 # Referential url with document variable
 scheme = "https://bibliotheques-specialisees.paris.fr/ark:/73873/pf0000855431/{:04d}/v0001.simple"
@@ -23,16 +24,32 @@ def target(page):
 class Crawler:
     """Generic boilerplate for naive
     crawling directives"""
-    def __init__(self, driver):
+    def __init__(self, driver, timeout = 5):
         self.driver = driver
+        self.timeout = timeout
     def download(self, res):
         assert res >= 1
         self.driver.get(target(res))
+        self.driver.find_element(By.XPATH, '//*[@id="hires"]').click()
+        self.driver.find_element(By.XPATH, '//*[@id="checkConditions"]').click()
+        self.driver.find_element(By.XPATH, '/html/body/div[5]/div[3]/div/button').click()
+        time.sleep(self.timeout)
     def compute(self, rate):
         for doc in range(1, rate):
-            print doc
             self.download(doc)
+    def __del__(self):
+        for i in os.listdir("/tmp"):
+            if ".crdownload" in i:
+                time.sleep(0.5)
+                downloads_done()
+            else:
+                self.driver.close()
 
 if __name__ == "__main__":
-    crawler = Crawler(webdriver.Firefox())
-    crawler.compute(4)
+    profile = webdriver.FirefoxProfile()
+    profile.set_preference('browser.download.folderList', 2)
+    profile.set_preference('browser.download.manager.showWhenStarting', False)
+    profile.set_preference('browser.download.dir', '/tmp') # Target
+    profile.set_preference('browser.helperApps.neverAsk.saveToDisk', 'application/zip')
+    crawler = Crawler(webdriver.Firefox(profile))
+    crawler.compute(2)
