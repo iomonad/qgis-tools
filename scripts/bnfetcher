@@ -1,0 +1,14 @@
+#!/usr/bin/python2
+# -*- mode: Python; fill-column: 75; comment-column: 50; -*-
+#
+# (c) iomonad - <clement@trosa.io>
+#
+# Description: BNF.fr ressource feching script.
+# Dependencies: ???
+#
+
+def main():
+    print "Hello BNF"
+
+if __name__ == "__main__":
+    main()
