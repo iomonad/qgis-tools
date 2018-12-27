@@ -9,47 +9,56 @@
 #  - mozilla/geckodriver: (LATEST)
 #
 
+import uuid
+import request
 import os, sys, time
 from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
+from multiprocessing.pool import ThreadPool
+from selenium.webdriver.support.ui import WebDriverWait
 
 # Referential url with document variable
 scheme = "https://bibliotheques-specialisees.paris.fr/ark:/73873/pf0000855431/{:04d}/v0001.simple"
 
-# Generate target from website logic
-def target(page):
-    return scheme.format(page)
-
 class Crawler:
     """Generic boilerplate for naive
     crawling directives"""
-    def __init__(self, driver, timeout = 5):
+    def __init__(self, driver, timeout = 5, directory = "."):
         self.driver = driver
         self.timeout = timeout
-    def download(self, res):
+        self.directory = directory
+    def target(self, page):
+        return scheme.format(page)
+    def generate(self, res):
+        """
+        Generate UUID package from BNF's server
+        and return url for pooling download process
+        """
         assert res >= 1
-        self.driver.get(target(res))
+        self.driver.get(self.target(res))
         self.driver.find_element(By.XPATH, '//*[@id="hires"]').click()
         self.driver.find_element(By.XPATH, '//*[@id="checkConditions"]').click()
         self.driver.find_element(By.XPATH, '/html/body/div[5]/div[3]/div/button').click()
         time.sleep(self.timeout)
+        return self.driver.find_element(By.XPATH, '/html/body/div[5]/div[3]/div/a').get_attribute('href')
+    def download(self, archive):
+        """Pooling download lambda"""
+        r = requests.get(archive, stream = True)
+        t = "{}.zip".format(str(uuid.uuid4()))
+        if r.status_code == 200:
+            with open(path, 'wb') as f:
+                for chunk in r:
+                    f.write(chunk)
     def compute(self, rate):
+        # TODO: Add download pool
+        """
+        Process naive paginated fetching
+        """
         for doc in range(1, rate):
-            self.download(doc)
+            print self.generate(doc)
     def __del__(self):
-        for i in os.listdir("/tmp"):
-            if ".crdownload" in i:
-                time.sleep(0.5)
-                downloads_done()
-            else:
-                self.driver.close()
+        self.driver.close()
 
 if __name__ == "__main__":
-    profile = webdriver.FirefoxProfile()
-    profile.set_preference('browser.download.folderList', 2)
-    profile.set_preference('browser.download.manager.showWhenStarting', False)
-    profile.set_preference('browser.download.dir', '/tmp') # Target
-    profile.set_preference('browser.helperApps.neverAsk.saveToDisk', 'application/zip')
-    crawler = Crawler(webdriver.Firefox(profile))
-    crawler.compute(2)
+    crawler = Crawler(webdriver.Firefox())
+    crawler.compute(10)
