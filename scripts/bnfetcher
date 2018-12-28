@@ -1,4 +1,5 @@
 #!/usr/bin/python2
+# -*- coding: utf-8 -*-
 # -*- mode: Python; fill-column: 75; comment-column: 50; -*-
 #
 # (c) iomonad - <clement@trosa.io>
@@ -9,56 +10,88 @@
 #  - mozilla/geckodriver: (LATEST)
 #
 
+import os
+import sys
+import time
 import uuid
 import request
-import os, sys, time
+import logging
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from multiprocessing.pool import ThreadPool
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
 
 # Referential url with document variable
 scheme = "https://bibliotheques-specialisees.paris.fr/ark:/73873/pf0000855431/{:04d}/v0001.simple"
 
+# Convenient logging
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+fh = logging.FileHandler('bnfetcher.log')
+ch = logging.StreamHandler()
+fh.setLevel(logging.DEBUG)
+ch.setLevel(logging.INFO)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+ch.setFormatter(formatter)
+fh.setFormatter(formatter)
+logger.addHandler(fh)
+logger.addHandler(ch)
+
 class Crawler:
     """Generic boilerplate for naive
     crawling directives"""
-    def __init__(self, driver, timeout = 5, directory = "."):
+
+    def __init__(self, driver, timeout=5, directory="."):
         self.driver = driver
         self.timeout = timeout
         self.directory = directory
+
     def target(self, page):
+        "Format target URL"
         return scheme.format(page)
+
     def generate(self, res):
-        """
-        Generate UUID package from BNF's server
-        and return url for pooling download process
-        """
+        "Generate UUID package from BNF's server"
         assert res >= 1
         self.driver.get(self.target(res))
+        title = self.driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div[1]/div[2]/div[1]/a').text.encode("ascii","ignore")
         self.driver.find_element(By.XPATH, '//*[@id="hires"]').click()
-        self.driver.find_element(By.XPATH, '//*[@id="checkConditions"]').click()
-        self.driver.find_element(By.XPATH, '/html/body/div[5]/div[3]/div/button').click()
-        time.sleep(self.timeout)
-        return self.driver.find_element(By.XPATH, '/html/body/div[5]/div[3]/div/a').get_attribute('href')
+        self.driver.find_element(By.XPATH,
+                                 '//*[@id="checkConditions"]').click()
+        self.driver.find_element(
+            By.XPATH, '/html/body/div[5]/div[3]/div/button').click()
+        try:
+            WebDriverWait(self.driver, self.timeout).until(EC.alert_is_present(),
+                                        'Timed out waiting for PA creation ' +
+                                            'confirmation popup to appear.')
+            alert = self.driver.switch_to.alert
+            alert.dimiss()
+        except TimeoutException:
+            logger.info("Processing resource: {}".format(title))
+        return self.driver.find_element(
+            By.XPATH, '/html/body/div[5]/div[3]/div/a').get_attribute('href')
+
     def download(self, archive):
-        """Pooling download lambda"""
-        r = requests.get(archive, stream = True)
+        "Pooling download lambda"
+        r = requests.get(archive, stream=True)
         t = "{}.zip".format(str(uuid.uuid4()))
         if r.status_code == 200:
             with open(path, 'wb') as f:
                 for chunk in r:
                     f.write(chunk)
+
     def compute(self, rate):
-        # TODO: Add download pool
-        """
-        Process naive paginated fetching
-        """
+        "Naive pooled loop processing"
         for doc in range(1, rate):
-            print self.generate(doc)
+            url = self.generate(doc)
+            logger.info("Pushing ARK resource to pool: {}".format(url))
     def __del__(self):
         self.driver.close()
 
 if __name__ == "__main__":
+    logger.info("Starting BNF fetcher")
     crawler = Crawler(webdriver.Firefox())
-    crawler.compute(10)
+    crawler.compute(2)
