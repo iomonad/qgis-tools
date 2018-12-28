@@ -120,7 +120,9 @@ class Crawler:
             try:
                 url = self.generate(doc)
             except Exception, e:
-                logger.fatal("ERROR while processing [{}] - Recording failure for manual processing.".format(doc))
+                logger.fatal(
+                    "ERROR while processing [{}] - Recording failure for manual processing."
+                    .format(doc))
                 continue
             logger.info("Pushing ARK resource to pool: {}".format(url))
             [
