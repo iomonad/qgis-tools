@@ -16,8 +16,7 @@ import time
 import uuid
 import requests
 import logging
-import Queue
-import threading
+import threadpool
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -45,12 +44,13 @@ class Crawler:
     """Generic boilerplate for naive
     crawling directives"""
 
-    def __init__(self, driver, timeout=5, directory="."):
+    def __init__(self, driver, timeout = 10, directory="archives"):
         self.driver = driver
         self.timeout = timeout
         self.directory = directory
-        self.pool = Queue.Queue()
-
+        self.pool = threadpool.ThreadPool(4)
+        if not (os.path.isdir(self.directory)):
+            os.makedirs(self.directory)
     def target(self, page):
         "Format target URL"
         return scheme.format(page)
@@ -59,12 +59,15 @@ class Crawler:
         "Generate UUID package from BNF's server"
         assert res >= 1
         self.driver.get(self.target(res))
-        title = self.driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div[1]/div[2]/div[1]/a').text.encode("ascii","ignore")
-        self.driver.find_element(By.XPATH, '//*[@id="hires"]').click()
-        self.driver.find_element(By.XPATH,
-                                 '//*[@id="checkConditions"]').click()
-        self.driver.find_element(
-            By.XPATH, '/html/body/div[5]/div[3]/div/button').click()
+        try:
+            title = self.driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div[1]/div[2]/div[1]/a').text.encode("ascii","ignore")
+            self.driver.find_element(By.XPATH, '//*[@id="hires"]').click()
+            self.driver.find_element(By.XPATH,
+                                     '//*[@id="checkConditions"]').click()
+            self.driver.find_element(
+                By.XPATH, '/html/body/div[5]/div[3]/div/button').click()
+        except NoSuchElementException, e:
+            logger.error("Invalid XPATH directive: {}".format(e.message))
         try:
             WebDriverWait(self.driver, self.timeout).until(EC.alert_is_present(),
                                         'Timed out waiting for PA creation ' +
@@ -73,32 +76,32 @@ class Crawler:
             alert.dimiss()
         except TimeoutException:
             logger.info("Processing resource: {}".format(title))
-        return self.driver.find_element(
-            By.XPATH, '/html/body/div[5]/div[3]/div/a').get_attribute('href')
+        return { 'aref': self.driver.find_element(By.XPATH, '/html/body/div[5]/div[3]/div/a').get_attribute('href'),
+                 'title': title}
 
     def download(self, archive):
         "Pooling download lambda"
-        r = requests.get(archive, stream=True)
-        t = "{}.zip".format(str(uuid.uuid4()))
-        logger.info("Downloading archive {} to target {}.".format(archive, t))
+        r = requests.get(archive['aref'], stream=True)
+        t = "{}/{}.zip".format(self.directory, archive['title'].replace(" ", "_"))
+        logger.info("Downloading archive {} to target {}.".format(archive['aref'], t))
         if r.status_code == 200:
             with open(t, 'wb') as f:
                 for chunk in r:
                     f.write(chunk)
-            logger.info("Successfuly downloaded archive {} to target {}.".format(archive, t))
+            logger.info("Successfuly downloaded archive {} to target {}.".format(archive['aref'], t))
         else:
-          logger.error("Error while fetching ark resources for: {}.".format(archive))
+          logger.error("Error while fetching ark resources for: {}.".format(archive['aref']))
 
     def compute(self, rate):
         "Naive pooled loop processing"
         for doc in range(1, rate):
             url = self.generate(doc)
             logger.info("Pushing ARK resource to pool: {}".format(url))
-            self.download(url)
+            [self.pool.putRequest(x) for x in
+             threadpool.makeRequests(self.download, [url])]
+            self.pool.wait()
     def __del__(self):
         self.driver.close()
-        while not self.pool.empty:
-            pass
 
 if __name__ == "__main__":
     logger.info("Starting BNF fetcher")
