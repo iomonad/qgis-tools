@@ -83,6 +83,8 @@ class Crawler:
         "Pooling download lambda"
         r = requests.get(archive['aref'], stream=True)
         t = "{}/{}.zip".format(self.directory, archive['title'].replace(" ", "_"))
+        if (os.path.isfile(t)):
+            return logger.info("File {} already exist, skipping download.".format(t))
         logger.info("Downloading archive {} to target {}.".format(archive['aref'], t))
         if r.status_code == 200:
             with open(t, 'wb') as f:
