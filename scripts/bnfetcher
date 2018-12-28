@@ -14,12 +14,13 @@ import os
 import sys
 import time
 import uuid
-import request
+import requests
 import logging
+import Queue
+import threading
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from multiprocessing.pool import ThreadPool
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
@@ -48,6 +49,7 @@ class Crawler:
         self.driver = driver
         self.timeout = timeout
         self.directory = directory
+        self.pool = Queue.Queue()
 
     def target(self, page):
         "Format target URL"
@@ -78,20 +80,30 @@ class Crawler:
         "Pooling download lambda"
         r = requests.get(archive, stream=True)
         t = "{}.zip".format(str(uuid.uuid4()))
+        logger.info("Downloading archive {} to target {}.".format(archive, t))
         if r.status_code == 200:
-            with open(path, 'wb') as f:
+            with open(t, 'wb') as f:
                 for chunk in r:
                     f.write(chunk)
+            logger.info("Successfuly downloaded archive {} to target {}.".format(archive, t))
+        else:
+          logger.error("Error while fetching ark resources for: {}.".format(archive))
 
     def compute(self, rate):
         "Naive pooled loop processing"
         for doc in range(1, rate):
             url = self.generate(doc)
             logger.info("Pushing ARK resource to pool: {}".format(url))
+            self.download(url)
     def __del__(self):
         self.driver.close()
+        while not self.pool.empty:
+            pass
 
 if __name__ == "__main__":
     logger.info("Starting BNF fetcher")
-    crawler = Crawler(webdriver.Firefox())
-    crawler.compute(2)
+    try:
+        crawler = Crawler(webdriver.Firefox())
+        crawler.compute(3)
+    except KeyboardInterrupt:
+        sys.exit(0)
