@@ -30,16 +30,24 @@ underground surveys.
 
 Descriptions:
 ---
-jpg2jgw:
-  Image to WorldFile generator, a six line
-  plain text sidecar file used by geographic
-  information systems (GIS) to georeference
-  raster map images.
-  In my use case, this script allows me to
-  do area assembly on Qgis.
+script/
+ \__ jpg2jgw:
+     Image to WorldFile generator, a six line
+     plain text sidecar file used by geographic
+     information systems (GIS) to georeference
+     raster map images.
+     In my use case, this script allows me to
+     do area assembly on Qgis.
+ \__ bnfetcher:
+     Since BNF (Bibliothèque nationale de France)
+     have their archive document protected, I
+     decided to write a small script that automate
+     human fetching process to retrieve whole
+     quarry surveys scans.
+     USE AT YOUR OWN RISK. YOUR IP MAY BE BANNED.
 
 Supported platforms:
-
+---
 +  OpenBSD
 +  Linux
 
