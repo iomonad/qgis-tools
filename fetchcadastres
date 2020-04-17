@@ -1,0 +1,24 @@
+#!/bin/bash
+#
+# (c) iomonad <iomonad@riseup.net>
+#     https://github.com/iomonad
+#
+
+set -euf -o pipefail
+
+ENDPOINT="https://cadastre.data.gouv.fr/data/etalab-cadastre/latest/geojson/communes/75"
+BATOUT="Batiments"
+PAROUT="Parcelles"
+
+for d in $(seq -w 20); do
+    RES="$ENDPOINT/751$d"
+    BAT="$RES/cadastre-751$d-batiments.json.gz"
+    PAR="$RES/cadastre-751$d-parcelles.json.gz"
+
+    (cd "$BATOUT" && curl -O --silent "$BAT") || exit 1
+    echo "DL $BAT"
+    (cd "$PAROUT" && curl -O --silent "$PAR") || exit 1
+    echo "DL $PAR"
+done
+
+find . -name *.json.gz -exec gunzip {} \;
