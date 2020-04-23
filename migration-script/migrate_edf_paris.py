@@ -1,5 +1,5 @@
 #
-# Nomalize PTT Data
+# Nomalize EDF Data
 # (c) iomonad <iomonad@riseup.net>
 #
 
