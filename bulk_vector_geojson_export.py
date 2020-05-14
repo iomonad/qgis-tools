@@ -8,16 +8,19 @@
 import unidecode
 
 VECTOR_TYPE = 0
-SAVE_PATH = '/home/iomonad/Work/com.github/underground'
+SAVE_PATH = '/home/iomonad/Work/com.github/underground/'
+RPATTERNS = {" ": "_", "-": "", "(": "", ")": ""}
+    
+def regularize_androidres_name(lname):
+    name = unidecode.unidecode(lname.name().lower())
+    for k, v in RPATTERNS.items():
+        name = name.replace(k, v)
+    return SAVE_PATH + name + ".geojson"
 
 for l in filter(lambda a: a.type() == VECTOR_TYPE,
         iface.mapCanvas().layers()):
     QgsVectorFileWriter.writeAsVectorFormat(l,
-        unidecode.unidecode(
-            SAVE_PATH + l.name().lower()
-            + ".geojson"
-            .replace(" ", "_").replace("-", "")
-            .replace("(", "").replace(")", "")
-        ), "utf-8", l.crs(),  "GeoJSON"
+        regularize_androidres_name(l), 
+        "utf-8", l.crs(),  "GeoJson"
     )
-    print (l.name() + "saved to geojson")
+    print (l.name() + " saved to geojson")
