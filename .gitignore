@@ -57,3 +57,4 @@ world
 assemble
 *.log
 scripts/archives
+dwg2json/dwg2json
