@@ -18,7 +18,6 @@ if (localStorage.getItem('centrales') == null) {
     let dataset_path = "https://trosa.io/qgis-tools/data/poste-source.json"
     fetch(dataset_path)
 	.then((data) => {
-	    console.log(data);
 	    localStorage.setItem('centrales', data.json());
 	})
 	.catch ((err) => {
@@ -26,4 +25,7 @@ if (localStorage.getItem('centrales') == null) {
 	});
 }
 
-L.geoJSON(localStorage.getItem('centrales')).addTo(mapview);
+var centrale_layer = L.geoJSON().addTo(map);
+localStorage.getItem('centrales').map(feature => {
+    centrale_layer.addData(feature);
+});
