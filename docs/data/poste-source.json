@@ -1,1 +1,6362 @@
-{"type":"FeatureCollection","features":[{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.345510840647002, 48.842310462004164]}, "properties": {"geo_point_2d": [48.842310462, 2.34551084065]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.272322261618395, 48.85624037060209]}, "properties": {"geo_point_2d": [48.8562403706, 2.27232226162]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.334131451363802, 48.89120910417525]}, "properties": {"geo_point_2d": [48.8912091042, 2.33413145136]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.437178425499457, 48.895224747439585]}, "properties": {"geo_point_2d": [48.8952247474, 2.4371784255]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.23726042058545, 48.89535174089387]}, "properties": {"geo_point_2d": [48.8953517409, 2.23726042059]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.283348974684726, 48.845301758273514]}, "properties": {"geo_point_2d": [48.8453017583, 2.28334897468]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.41743551846584, 48.915833849156286]}, "properties": {"geo_point_2d": [48.9158338492, 2.41743551847]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.268234057946285, 48.8264809671153]}, "properties": {"geo_point_2d": [48.8264809671, 2.26823405795]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.248561290096142, 48.89091858677686]}, "properties": {"geo_point_2d": [48.8909185868, 2.2485612901]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.329669975009759, 48.85115910585002]}, "properties": {"geo_point_2d": [48.8511591059, 2.32966997501]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.304100244808918, 48.8642629139747]}, "properties": {"geo_point_2d": [48.864262914, 2.30410024481]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.310501370888117, 48.835695018414576]}, "properties": {"geo_point_2d": [48.8356950184, 2.31050137089]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.321891443012191, 48.88356512842696]}, "properties": {"geo_point_2d": [48.8835651284, 2.32189144301]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.355670742832368, 48.88832075641337]}, "properties": {"geo_point_2d": [48.8883207564, 2.35567074283]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.326885848894082, 48.806150494582994]}, "properties": {"geo_point_2d": [48.8061504946, 2.32688584889]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.237135107568011, 48.87625098746278]}, "properties": {"geo_point_2d": [48.8762509875, 2.23713510757]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.340588665383882, 48.92169726585253]}, "properties": {"geo_point_2d": [48.9216972659, 2.34058866538]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.353421603002642, 48.84898182895521]}, "properties": {"geo_point_2d": [48.848981829, 2.353421603]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.354251446733626, 48.83488264547614]}, "properties": {"geo_point_2d": [48.8348826455, 2.35425144673]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.293292629776822, 48.876632651197774]}, "properties": {"geo_point_2d": [48.8766326512, 2.29329262978]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.285538189123427, 48.86476821650034]}, "properties": {"geo_point_2d": [48.8647682165, 2.28553818912]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.275115920597015, 48.87264791515068]}, "properties": {"geo_point_2d": [48.8726479152, 2.2751159206]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.317743834276363, 48.883589552452314]}, "properties": {"geo_point_2d": [48.8835895525, 2.31774383428]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.424685234715477, 48.8488323868822]}, "properties": {"geo_point_2d": [48.8488323869, 2.42468523472]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.295875382382414, 48.83770825276479]}, "properties": {"geo_point_2d": [48.8377082528, 2.29587538238]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.376875502291574, 48.88967315737363]}, "properties": {"geo_point_2d": [48.8896731574, 2.37687550229]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.260847544300922, 48.90569916137865]}, "properties": {"geo_point_2d": [48.9056991614, 2.2608475443]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.327751182276657, 48.90997928951527]}, "properties": {"geo_point_2d": [48.9099792895, 2.32775118228]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.368954695621423, 48.849365416778845]}, "properties": {"geo_point_2d": [48.8493654168, 2.36895469562]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.304032718618407, 48.84748168993801]}, "properties": {"geo_point_2d": [48.8474816899, 2.30403271862]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.310302712320798, 48.87381520461553]}, "properties": {"geo_point_2d": [48.8738152046, 2.31030271232]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.322743458023862, 48.87253335367994]}, "properties": {"geo_point_2d": [48.8725333537, 2.32274345802]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.278996145266364, 48.81281795017303]}, "properties": {"geo_point_2d": [48.8128179502, 2.27899614527]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.303369293951588, 48.91360944216351]}, "properties": {"geo_point_2d": [48.9136094422, 2.30336929395]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.391708190442256, 48.83584273590015]}, "properties": {"geo_point_2d": [48.8358427359, 2.39170819044]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.382328888223636, 48.852853809879036]}, "properties": {"geo_point_2d": [48.8528538099, 2.38232888822]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.399033371865764, 48.86813310691384]}, "properties": {"geo_point_2d": [48.8681331069, 2.39903337187]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.35810123387106, 48.80030357124095]}, "properties": {"geo_point_2d": [48.8003035712, 2.35810123387]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.4064338976493, 48.80545499147967]}, "properties": {"geo_point_2d": [48.8054549915, 2.40643389765]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.433843831997983, 48.87078528264468]}, "properties": {"geo_point_2d": [48.8707852826, 2.433843832]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.281211264350389, 48.893815848330824]}, "properties": {"geo_point_2d": [48.8938158483, 2.28121126435]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.235476029114241, 48.8474636716468]}, "properties": {"geo_point_2d": [48.8474636716, 2.23547602911]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.395020123462438, 48.85318176228025]}, "properties": {"geo_point_2d": [48.8531817623, 2.39502012346]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.336421780678084, 48.82528117287195]}, "properties": {"geo_point_2d": [48.8252811729, 2.33642178068]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.355631709149261, 48.82651564255052]}, "properties": {"geo_point_2d": [48.8265156426, 2.35563170915]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.306625037515143, 48.872340067004316]}, "properties": {"geo_point_2d": [48.872340067, 2.30662503752]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.390298385386449, 48.93014829680449]}, "properties": {"geo_point_2d": [48.9301482968, 2.39029838539]}},{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.251888461217187, 48.82741420168001]}, "properties": {"geo_point_2d": [48.8274142017, 2.25188846122]}}]}
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-01-06T18:59:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/26366833",
+        "name": "Poste électrique d’Ampère",
+        "note": "Poste reconstruit récemment, vue IGN non à jour",
+        "operator": "RTE",
+        "power": "substation",
+        "ref:FR:RTE": "AMPER",
+        "ref:FR:RTE_nom": "AMPERE",
+        "source": "data.gouv.fr:RTE - 04/2017",
+        "substation": "transmission",
+        "voltage": "225000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3396915,
+              48.9203951
+            ],
+            [
+              2.3414243,
+              48.9217476
+            ],
+            [
+              2.3400261,
+              48.9225328
+            ],
+            [
+              2.339769,
+              48.9223539
+            ],
+            [
+              2.3391802,
+              48.9219907
+            ],
+            [
+              2.3391508,
+              48.9219725
+            ],
+            [
+              2.3391307,
+              48.921976
+            ],
+            [
+              2.3388293,
+              48.9217883
+            ],
+            [
+              2.3386124,
+              48.9216684
+            ],
+            [
+              2.3388782,
+              48.9214881
+            ],
+            [
+              2.337864,
+              48.9207112
+            ],
+            [
+              2.3382587,
+              48.9204913
+            ],
+            [
+              2.3381685,
+              48.9204165
+            ],
+            [
+              2.3382788,
+              48.9203542
+            ],
+            [
+              2.3382177,
+              48.9202724
+            ],
+            [
+              2.3384132,
+              48.9200459
+            ],
+            [
+              2.3391692,
+              48.9196185
+            ],
+            [
+              2.3399701,
+              48.9202398
+            ],
+            [
+              2.3396915,
+              48.9203951
+            ]
+          ]
+        ]
+      },
+      "id": "way/26366833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/35538714",
+        "barrier": "wall",
+        "name": "Poste électrique de Romainville",
+        "operator": "RTE",
+        "power": "substation",
+        "ref:FR:RTE": "ROMAI",
+        "ref:FR:RTE_nom": "ROMAINVILLE",
+        "source": "data.gouv.fr:RTE - 04/2017",
+        "substation": "transmission",
+        "voltage": "225000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.4368902,
+              48.8941556
+            ],
+            [
+              2.4371748,
+              48.8940825
+            ],
+            [
+              2.437474,
+              48.8940072
+            ],
+            [
+              2.4373723,
+              48.8938527
+            ],
+            [
+              2.437518,
+              48.8933802
+            ],
+            [
+              2.4381965,
+              48.8932469
+            ],
+            [
+              2.4390139,
+              48.8945432
+            ],
+            [
+              2.4379296,
+              48.8949452
+            ],
+            [
+              2.4380681,
+              48.8951478
+            ],
+            [
+              2.438032,
+              48.8952363
+            ],
+            [
+              2.4378751,
+              48.8953192
+            ],
+            [
+              2.4378303,
+              48.8953423
+            ],
+            [
+              2.4377132,
+              48.8954034
+            ],
+            [
+              2.4376819,
+              48.8954195
+            ],
+            [
+              2.4371842,
+              48.8956837
+            ],
+            [
+              2.437127,
+              48.8957143
+            ],
+            [
+              2.4370527,
+              48.8957545
+            ],
+            [
+              2.4369869,
+              48.8957898
+            ],
+            [
+              2.436903,
+              48.8958347
+            ],
+            [
+              2.4368609,
+              48.8957304
+            ],
+            [
+              2.4368078,
+              48.8955962
+            ],
+            [
+              2.4367374,
+              48.8954178
+            ],
+            [
+              2.4365963,
+              48.8950595
+            ],
+            [
+              2.4367732,
+              48.8950321
+            ],
+            [
+              2.4367292,
+              48.8949665
+            ],
+            [
+              2.4366916,
+              48.8948736
+            ],
+            [
+              2.4364661,
+              48.8945158
+            ],
+            [
+              2.4369987,
+              48.8943812
+            ],
+            [
+              2.4370039,
+              48.8943536
+            ],
+            [
+              2.4368902,
+              48.8941556
+            ]
+          ]
+        ]
+      },
+      "id": "way/35538714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/41834104",
+        "building": "yes",
+        "location": "indoor",
+        "name": "Poste électrique de Javel",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "JAVEL",
+        "ref:FR:RTE_nom": "JAVEL",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.283407,
+              48.8457417
+            ],
+            [
+              2.2833246,
+              48.845772
+            ],
+            [
+              2.2832951,
+              48.8457841
+            ],
+            [
+              2.2831931,
+              48.8456617
+            ],
+            [
+              2.283182,
+              48.8456655
+            ],
+            [
+              2.2831528,
+              48.8456332
+            ],
+            [
+              2.2831649,
+              48.8456282
+            ],
+            [
+              2.2831215,
+              48.8455762
+            ],
+            [
+              2.283067,
+              48.845598
+            ],
+            [
+              2.2828653,
+              48.8453676
+            ],
+            [
+              2.2830392,
+              48.845302
+            ],
+            [
+              2.283234,
+              48.8452284
+            ],
+            [
+              2.2834327,
+              48.8454552
+            ],
+            [
+              2.2832638,
+              48.845521
+            ],
+            [
+              2.283437,
+              48.8457296
+            ],
+            [
+              2.283407,
+              48.8457417
+            ]
+          ]
+        ]
+      },
+      "id": "way/41834104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/49338373",
+        "building": "yes",
+        "location": "indoor",
+        "name": "Poste électrique Ney (RATP)",
+        "operator": "RATP",
+        "power": "substation",
+        "ref:FR:RTE": "NEY",
+        "ref:FR:RTE_nom": "NEY",
+        "ref:RTE:codnat": "NEY",
+        "substation": "traction",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3477473,
+              48.8977573
+            ],
+            [
+              2.3477166,
+              48.8976542
+            ],
+            [
+              2.3477886,
+              48.8976554
+            ],
+            [
+              2.34779,
+              48.897636
+            ],
+            [
+              2.3478327,
+              48.8976363
+            ],
+            [
+              2.3478517,
+              48.8973788
+            ],
+            [
+              2.3480716,
+              48.8973503
+            ],
+            [
+              2.3481145,
+              48.8974916
+            ],
+            [
+              2.3480944,
+              48.8974944
+            ],
+            [
+              2.3481024,
+              48.8975087
+            ],
+            [
+              2.3482547,
+              48.897513
+            ],
+            [
+              2.3482567,
+              48.8974841
+            ],
+            [
+              2.3482891,
+              48.8974851
+            ],
+            [
+              2.348287,
+              48.8975139
+            ],
+            [
+              2.3483354,
+              48.8975151
+            ],
+            [
+              2.34833,
+              48.8975974
+            ],
+            [
+              2.3483162,
+              48.8978085
+            ],
+            [
+              2.3479374,
+              48.897798
+            ],
+            [
+              2.3479394,
+              48.8977613
+            ],
+            [
+              2.3477473,
+              48.8977573
+            ]
+          ]
+        ]
+      },
+      "id": "way/49338373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/53727352",
+        "building": "yes",
+        "location": "indoor",
+        "name": "Poste électrique de Convention",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "CONVE",
+        "ref:FR:RTE_nom": "CONVENTION",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.2959143,
+              48.8378661
+            ],
+            [
+              2.2957649,
+              48.8377724
+            ],
+            [
+              2.2956411,
+              48.8376937
+            ],
+            [
+              2.2957017,
+              48.8376664
+            ],
+            [
+              2.2958356,
+              48.8376059
+            ],
+            [
+              2.2958957,
+              48.8375788
+            ],
+            [
+              2.2959912,
+              48.8376387
+            ],
+            [
+              2.2960491,
+              48.8376745
+            ],
+            [
+              2.2961267,
+              48.8377254
+            ],
+            [
+              2.2960599,
+              48.8377696
+            ],
+            [
+              2.2959693,
+              48.8378297
+            ],
+            [
+              2.2959143,
+              48.8378661
+            ]
+          ]
+        ]
+      },
+      "id": "way/53727352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/53944139",
+        "building": "yes",
+        "building:levels": "4",
+        "location": "indoor",
+        "name": "Poste électrique Laos",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "1LAOS",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3004503,
+              48.849246
+            ],
+            [
+              2.3006533,
+              48.8491062
+            ],
+            [
+              2.3007317,
+              48.8490505
+            ],
+            [
+              2.300761,
+              48.8490701
+            ],
+            [
+              2.3008024,
+              48.8490987
+            ],
+            [
+              2.3008575,
+              48.8491363
+            ],
+            [
+              2.3009013,
+              48.8491673
+            ],
+            [
+              2.300932,
+              48.849188
+            ],
+            [
+              2.3009542,
+              48.8492033
+            ],
+            [
+              2.300968,
+              48.8492137
+            ],
+            [
+              2.3009341,
+              48.8492361
+            ],
+            [
+              2.3008636,
+              48.8492802
+            ],
+            [
+              2.3008198,
+              48.8493079
+            ],
+            [
+              2.3008129,
+              48.8493142
+            ],
+            [
+              2.3007367,
+              48.8493615
+            ],
+            [
+              2.3006404,
+              48.8494238
+            ],
+            [
+              2.3004364,
+              48.8492956
+            ],
+            [
+              2.3004095,
+              48.8492755
+            ],
+            [
+              2.3004503,
+              48.849246
+            ]
+          ]
+        ]
+      },
+      "id": "way/53944139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/54117385",
+        "building": "yes",
+        "location": "indoor",
+        "name": "Poste électrique Garibaldi",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "GARIB",
+        "ref:FR:RTE_nom": "GARIBALDI",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3045992,
+              48.8476035
+            ],
+            [
+              2.3045152,
+              48.8477101
+            ],
+            [
+              2.3044232,
+              48.8478266
+            ],
+            [
+              2.3043084,
+              48.8477863
+            ],
+            [
+              2.304292,
+              48.8477884
+            ],
+            [
+              2.3041478,
+              48.8475762
+            ],
+            [
+              2.3041491,
+              48.8475736
+            ],
+            [
+              2.304303,
+              48.847528
+            ],
+            [
+              2.3044614,
+              48.847483
+            ],
+            [
+              2.30453,
+              48.8475796
+            ],
+            [
+              2.3045992,
+              48.8476035
+            ]
+          ]
+        ]
+      },
+      "id": "way/54117385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/55931903",
+        "building": "service",
+        "location": "indoor",
+        "name": "Poste électrique de Cardinal Lemoine",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "C.LEM",
+        "ref:FR:RTE_nom": "CARDINAL-LEMOINE",
+        "ref:RTE:codnat": "C.LEM",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3532257,
+              48.8487315
+            ],
+            [
+              2.353322,
+              48.8488393
+            ],
+            [
+              2.3533981,
+              48.8489263
+            ],
+            [
+              2.3533726,
+              48.8489363
+            ],
+            [
+              2.3533329,
+              48.8489517
+            ],
+            [
+              2.3532699,
+              48.8489739
+            ],
+            [
+              2.3530796,
+              48.8490413
+            ],
+            [
+              2.3530043,
+              48.8489375
+            ],
+            [
+              2.3529751,
+              48.8489461
+            ],
+            [
+              2.3529064,
+              48.8488503
+            ],
+            [
+              2.353059,
+              48.8487963
+            ],
+            [
+              2.3531638,
+              48.8487551
+            ],
+            [
+              2.3532257,
+              48.8487315
+            ]
+          ]
+        ]
+      },
+      "id": "way/55931903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/56692695",
+        "building": "yes",
+        "location": "indoor",
+        "name": "Poste électrique de Beaubourg",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "BXBOU",
+        "ref:FR:RTE_nom": "BEAUBOURG",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.357438,
+              48.8607044
+            ],
+            [
+              2.3575602,
+              48.8608124
+            ],
+            [
+              2.3577286,
+              48.8609611
+            ],
+            [
+              2.3576328,
+              48.8610087
+            ],
+            [
+              2.3574638,
+              48.8610905
+            ],
+            [
+              2.3571051,
+              48.8607941
+            ],
+            [
+              2.3571655,
+              48.8607652
+            ],
+            [
+              2.3572253,
+              48.8608078
+            ],
+            [
+              2.357312,
+              48.8607657
+            ],
+            [
+              2.357438,
+              48.8607044
+            ]
+          ]
+        ]
+      },
+      "id": "way/56692695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/63213632",
+        "building": "service",
+        "location": "indoor",
+        "name": "Poste électrique des Buttes-Chaumont",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "B.CHA",
+        "ref:FR:RTE_nom": "BUTTES-CHAUMONT",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3764719,
+              48.8756678
+            ],
+            [
+              2.376141,
+              48.8757295
+            ],
+            [
+              2.3760526,
+              48.875454
+            ],
+            [
+              2.3763573,
+              48.8753993
+            ],
+            [
+              2.3763892,
+              48.8754742
+            ],
+            [
+              2.3764152,
+              48.875535
+            ],
+            [
+              2.3764719,
+              48.8756678
+            ]
+          ]
+        ]
+      },
+      "id": "way/63213632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/63638167",
+        "building": "yes",
+        "location": "indoor",
+        "name": "Poste électrique de Faidherbe",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "FAIDH",
+        "ref:FR:RTE_nom": "FAIDHERBE",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3826419,
+              48.8526257
+            ],
+            [
+              2.3826369,
+              48.8526339
+            ],
+            [
+              2.3825688,
+              48.8526289
+            ],
+            [
+              2.3825506,
+              48.8527269
+            ],
+            [
+              2.3824417,
+              48.8527192
+            ],
+            [
+              2.3824369,
+              48.8527402
+            ],
+            [
+              2.3823678,
+              48.8527255
+            ],
+            [
+              2.3822975,
+              48.8527092
+            ],
+            [
+              2.3823113,
+              48.8526112
+            ],
+            [
+              2.3821663,
+              48.8525973
+            ],
+            [
+              2.3821788,
+              48.8525407
+            ],
+            [
+              2.3822055,
+              48.8524873
+            ],
+            [
+              2.3822498,
+              48.8524892
+            ],
+            [
+              2.3824734,
+              48.8525075
+            ],
+            [
+              2.3826586,
+              48.8525227
+            ],
+            [
+              2.3826419,
+              48.8526257
+            ]
+          ]
+        ]
+      },
+      "id": "way/63638167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/63641119",
+        "building": "industrial",
+        "building:levels": "2",
+        "location": "indoor",
+        "name": "Poste HT du Père-Lachaise 225kV",
+        "operator": "RATP",
+        "power": "substation",
+        "ref:FR:RTE": "P.LAC",
+        "ref:FR:RTE_nom": "PERE-LACHAISE",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "traction",
+        "voltage": "225000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3862306,
+              48.8637071
+            ],
+            [
+              2.3861225,
+              48.863678
+            ],
+            [
+              2.3859141,
+              48.863603
+            ],
+            [
+              2.3859227,
+              48.86359
+            ],
+            [
+              2.3859913,
+              48.8634891
+            ],
+            [
+              2.3859946,
+              48.8634841
+            ],
+            [
+              2.3861373,
+              48.8635266
+            ],
+            [
+              2.3861759,
+              48.8635382
+            ],
+            [
+              2.3863343,
+              48.8636165
+            ],
+            [
+              2.3862819,
+              48.8636623
+            ],
+            [
+              2.3862306,
+              48.8637071
+            ]
+          ]
+        ]
+      },
+      "id": "way/63641119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/63646845",
+        "building": "industrial",
+        "location": "indoor",
+        "name": "Poste HT du Père-Lachaise",
+        "operator": "RATP",
+        "power": "substation",
+        "ref:FR:RTE": "P.LAC",
+        "ref:FR:RTE_nom": "PERE-LACHAISE",
+        "ref:RTE:codnat": "P.LAC",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "traction",
+        "voltage": "63000;15000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3843117,
+              48.8649618
+            ],
+            [
+              2.3845455,
+              48.8647502
+            ],
+            [
+              2.3845583,
+              48.8647566
+            ],
+            [
+              2.3847145,
+              48.8648348
+            ],
+            [
+              2.3847363,
+              48.8648466
+            ],
+            [
+              2.3847619,
+              48.8648582
+            ],
+            [
+              2.3845181,
+              48.8650668
+            ],
+            [
+              2.3844934,
+              48.865053
+            ],
+            [
+              2.3844768,
+              48.8650688
+            ],
+            [
+              2.3842799,
+              48.8650064
+            ],
+            [
+              2.3843117,
+              48.8649618
+            ]
+          ]
+        ]
+      },
+      "id": "way/63646845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/64040271",
+        "building": "yes",
+        "location": "indoor",
+        "name": "Poste électrique de Flandre",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "FLAND",
+        "ref:FR:RTE_nom": "FLANDRE",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3766656,
+              48.8896817
+            ],
+            [
+              2.3765891,
+              48.8896119
+            ],
+            [
+              2.3767041,
+              48.8895562
+            ],
+            [
+              2.3768193,
+              48.8895007
+            ],
+            [
+              2.3770456,
+              48.8897058
+            ],
+            [
+              2.377062,
+              48.8897209
+            ],
+            [
+              2.3768674,
+              48.8898108
+            ],
+            [
+              2.3767155,
+              48.8896759
+            ],
+            [
+              2.3766787,
+              48.8896932
+            ],
+            [
+              2.3766656,
+              48.8896817
+            ]
+          ]
+        ]
+      },
+      "id": "way/64040271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/64040939",
+        "building": "yes",
+        "location": "indoor",
+        "name": "Poste électrique de Crimée",
+        "operator": "RTE",
+        "power": "substation",
+        "ref:FR:RTE": "CRIME",
+        "ref:FR:RTE_nom": "CRIMEE",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010;data.gouv.fr:RTE - 12/2018",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3779977,
+              48.8902809
+            ],
+            [
+              2.3779343,
+              48.8903167
+            ],
+            [
+              2.3778842,
+              48.890345
+            ],
+            [
+              2.3778456,
+              48.8903138
+            ],
+            [
+              2.3778455,
+              48.8903138
+            ],
+            [
+              2.3777863,
+              48.8902655
+            ],
+            [
+              2.3777848,
+              48.8902641
+            ],
+            [
+              2.3777102,
+              48.8902038
+            ],
+            [
+              2.3776485,
+              48.8901536
+            ],
+            [
+              2.3776309,
+              48.8901392
+            ],
+            [
+              2.3775561,
+              48.8900785
+            ],
+            [
+              2.3775875,
+              48.8900504
+            ],
+            [
+              2.3776418,
+              48.8900018
+            ],
+            [
+              2.3777045,
+              48.890051
+            ],
+            [
+              2.3777422,
+              48.8900805
+            ],
+            [
+              2.3778982,
+              48.8902026
+            ],
+            [
+              2.3779387,
+              48.8902347
+            ],
+            [
+              2.3779977,
+              48.8902809
+            ]
+          ]
+        ]
+      },
+      "id": "way/64040939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/64623956",
+        "building": "industrial",
+        "location": "indoor",
+        "name": "Poste électrique de Perret",
+        "operator": "RTE",
+        "power": "substation",
+        "ref:FR:RTE": "PERRE",
+        "ref:FR:RTE_nom": "PERRET",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "transmission",
+        "voltage": "225000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.2835413,
+              48.8974511
+            ],
+            [
+              2.2835309,
+              48.8974639
+            ],
+            [
+              2.283425,
+              48.8974264
+            ],
+            [
+              2.2834357,
+              48.8974136
+            ],
+            [
+              2.28338,
+              48.8973952
+            ],
+            [
+              2.2833383,
+              48.8973814
+            ],
+            [
+              2.2832879,
+              48.8973613
+            ],
+            [
+              2.2834567,
+              48.8971747
+            ],
+            [
+              2.2834893,
+              48.8971395
+            ],
+            [
+              2.2835798,
+              48.8971752
+            ],
+            [
+              2.2835617,
+              48.8971962
+            ],
+            [
+              2.2836386,
+              48.8972271
+            ],
+            [
+              2.284067,
+              48.8973951
+            ],
+            [
+              2.2839396,
+              48.8975335
+            ],
+            [
+              2.2839177,
+              48.8975578
+            ],
+            [
+              2.2838961,
+              48.8975613
+            ],
+            [
+              2.2838666,
+              48.8975665
+            ],
+            [
+              2.2838366,
+              48.8975559
+            ],
+            [
+              2.2838264,
+              48.8975689
+            ],
+            [
+              2.2837202,
+              48.8975312
+            ],
+            [
+              2.2837306,
+              48.8975183
+            ],
+            [
+              2.283682,
+              48.8975011
+            ],
+            [
+              2.2836315,
+              48.8974832
+            ],
+            [
+              2.2835909,
+              48.8974688
+            ],
+            [
+              2.2835413,
+              48.8974511
+            ]
+          ]
+        ]
+      },
+      "id": "way/64623956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/67559193",
+        "building": "yes",
+        "location": "indoor",
+        "name": "Poste électrique Pasquier",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "PASQU",
+        "ref:FR:RTE_nom": "PASQUIER",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3229147,
+              48.8725693
+            ],
+            [
+              2.3228736,
+              48.8724454
+            ],
+            [
+              2.3228635,
+              48.8724111
+            ],
+            [
+              2.3229267,
+              48.8724028
+            ],
+            [
+              2.3232894,
+              48.8723562
+            ],
+            [
+              2.3233123,
+              48.8724313
+            ],
+            [
+              2.3233368,
+              48.8725116
+            ],
+            [
+              2.3230949,
+              48.8725454
+            ],
+            [
+              2.3229945,
+              48.8725591
+            ],
+            [
+              2.3229147,
+              48.8725693
+            ]
+          ]
+        ]
+      },
+      "id": "way/67559193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/68925871",
+        "building": "yes",
+        "location": "indoor",
+        "name": "Poste électrique de Turgot",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "TURGO",
+        "ref:FR:RTE_nom": "TURGOT",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3453649,
+              48.8808704
+            ],
+            [
+              2.3451698,
+              48.8808889
+            ],
+            [
+              2.3452347,
+              48.8807466
+            ],
+            [
+              2.3452848,
+              48.880637
+            ],
+            [
+              2.3452921,
+              48.8806364
+            ],
+            [
+              2.3452935,
+              48.8806485
+            ],
+            [
+              2.3455271,
+              48.8806266
+            ],
+            [
+              2.3455247,
+              48.8806155
+            ],
+            [
+              2.3457406,
+              48.8805954
+            ],
+            [
+              2.3457497,
+              48.8806351
+            ],
+            [
+              2.3458512,
+              48.880625
+            ],
+            [
+              2.3458432,
+              48.8805862
+            ],
+            [
+              2.346004,
+              48.8805712
+            ],
+            [
+              2.3460113,
+              48.8806044
+            ],
+            [
+              2.3460571,
+              48.8808042
+            ],
+            [
+              2.3459112,
+              48.8808183
+            ],
+            [
+              2.3458775,
+              48.8808214
+            ],
+            [
+              2.3458112,
+              48.8808278
+            ],
+            [
+              2.3455414,
+              48.8808536
+            ],
+            [
+              2.3453649,
+              48.8808704
+            ]
+          ]
+        ]
+      },
+      "id": "way/68925871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/69045194",
+        "branch": "RTE",
+        "building": "yes",
+        "building:levels": "5",
+        "frequency": "50",
+        "gas_insulated": "yes",
+        "location": "indoor",
+        "name": "Poste électrique de Montessuy",
+        "operator": "RATP",
+        "power": "substation",
+        "ref:FR:RTE": "MTTES",
+        "ref:FR:RTE_nom": "MONTTESSUY",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "start_date": "1962",
+        "substation": "distribution",
+        "voltage": "63000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.299619,
+              48.8599436
+            ],
+            [
+              2.2995968,
+              48.8599396
+            ],
+            [
+              2.2994775,
+              48.8599185
+            ],
+            [
+              2.2995934,
+              48.8596829
+            ],
+            [
+              2.2997129,
+              48.8597071
+            ],
+            [
+              2.2998503,
+              48.859735
+            ],
+            [
+              2.2997446,
+              48.8599656
+            ],
+            [
+              2.2996822,
+              48.8599548
+            ],
+            [
+              2.299619,
+              48.8599436
+            ]
+          ]
+        ]
+      },
+      "id": "way/69045194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/69104422",
+        "building": "yes",
+        "building:levels": "3",
+        "location": "indoor",
+        "name": "Poste électrique Baudry",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "BAUDR",
+        "ref:FR:RTE_nom": "BAUDRY",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3067722,
+              48.8723671
+            ],
+            [
+              2.3066964,
+              48.8723303
+            ],
+            [
+              2.3067018,
+              48.8723252
+            ],
+            [
+              2.3066762,
+              48.8723124
+            ],
+            [
+              2.3066701,
+              48.8723177
+            ],
+            [
+              2.3066032,
+              48.8722856
+            ],
+            [
+              2.3067272,
+              48.87217
+            ],
+            [
+              2.3067292,
+              48.872168
+            ],
+            [
+              2.3068078,
+              48.8722059
+            ],
+            [
+              2.3068995,
+              48.8722499
+            ],
+            [
+              2.3067722,
+              48.8723671
+            ]
+          ]
+        ]
+      },
+      "id": "way/69104422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/69220730",
+        "building": "service",
+        "building:levels": "4",
+        "location": "indoor",
+        "name": "Poste électrique de Folies",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "FOLIE",
+        "ref:FR:RTE_nom": "FOLIES",
+        "ref:RTE:codnat": "FOLIE",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3443043,
+              48.8724746
+            ],
+            [
+              2.3442719,
+              48.872328
+            ],
+            [
+              2.3442316,
+              48.8721441
+            ],
+            [
+              2.3444351,
+              48.8721197
+            ],
+            [
+              2.3444605,
+              48.8722243
+            ],
+            [
+              2.3444521,
+              48.8722252
+            ],
+            [
+              2.344513,
+              48.8724439
+            ],
+            [
+              2.3444016,
+              48.8724603
+            ],
+            [
+              2.3443043,
+              48.8724746
+            ]
+          ]
+        ]
+      },
+      "id": "way/69220730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/69999641",
+        "building": "yes",
+        "location": "indoor",
+        "name": "Poste électrique de Gambetta",
+        "operator": "RTE",
+        "power": "substation",
+        "ref:FR:RTE": "GAMBE",
+        "ref:FR:RTE_nom": "GAMBETTA",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010;data.gouv.fr:RTE - 12/2018",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3994027,
+              48.8679628
+            ],
+            [
+              2.399484,
+              48.8680027
+            ],
+            [
+              2.3994726,
+              48.8680126
+            ],
+            [
+              2.3993059,
+              48.8681563
+            ],
+            [
+              2.3990559,
+              48.8680306
+            ],
+            [
+              2.3992343,
+              48.8678728
+            ],
+            [
+              2.3993478,
+              48.8677759
+            ],
+            [
+              2.3994291,
+              48.8678138
+            ],
+            [
+              2.3995217,
+              48.8678569
+            ],
+            [
+              2.3994409,
+              48.8679288
+            ],
+            [
+              2.3994172,
+              48.8679499
+            ],
+            [
+              2.3994027,
+              48.8679628
+            ]
+          ]
+        ]
+      },
+      "id": "way/69999641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/75750171",
+        "building": "yes",
+        "location": "indoor",
+        "name": "Poste électrique des Batignolles",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "BATIG",
+        "ref:FR:RTE_nom": "BATIGNOLLES",
+        "ref:RTE:codnat": "BATIG",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000",
+        "wikidata": "Q22922277"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.321798,
+              48.8836616
+            ],
+            [
+              2.3216226,
+              48.8836243
+            ],
+            [
+              2.3216482,
+              48.8835694
+            ],
+            [
+              2.3216744,
+              48.8835132
+            ],
+            [
+              2.321942,
+              48.8835717
+            ],
+            [
+              2.3219327,
+              48.8835904
+            ],
+            [
+              2.3219633,
+              48.8835958
+            ],
+            [
+              2.3219134,
+              48.8837096
+            ],
+            [
+              2.321992,
+              48.8837245
+            ],
+            [
+              2.3219979,
+              48.883712
+            ],
+            [
+              2.3220134,
+              48.8837073
+            ],
+            [
+              2.3220515,
+              48.883712
+            ],
+            [
+              2.3220682,
+              48.8836752
+            ],
+            [
+              2.3223433,
+              48.8837284
+            ],
+            [
+              2.3222897,
+              48.8838436
+            ],
+            [
+              2.3218848,
+              48.8837684
+            ],
+            [
+              2.3218564,
+              48.8838352
+            ],
+            [
+              2.3217964,
+              48.8838215
+            ],
+            [
+              2.3217329,
+              48.8838069
+            ],
+            [
+              2.3217456,
+              48.8837786
+            ],
+            [
+              2.3217661,
+              48.8837329
+            ],
+            [
+              2.3217808,
+              48.8837
+            ],
+            [
+              2.3217919,
+              48.8836751
+            ],
+            [
+              2.321798,
+              48.8836616
+            ]
+          ]
+        ]
+      },
+      "id": "way/75750171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/76031478",
+        "building": "yes",
+        "location": "indoor",
+        "name": "Poste électrique Lamarck",
+        "operator": "RATP",
+        "power": "substation",
+        "ref:FR:RTE": "LAMAR",
+        "ref:FR:RTE_nom": "LAMARCK",
+        "ref:RTE:codnat": "LAMAR",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "traction",
+        "voltage": "63000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3277156,
+              48.891633
+            ],
+            [
+              2.3278564,
+              48.8918575
+            ],
+            [
+              2.3276076,
+              48.8919256
+            ],
+            [
+              2.3274676,
+              48.8916993
+            ],
+            [
+              2.3277156,
+              48.891633
+            ]
+          ]
+        ]
+      },
+      "id": "way/76031478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/76032001",
+        "building": "yes",
+        "location": "indoor",
+        "name": "Poste électrique Caulaincourt",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "CAULA",
+        "ref:FR:RTE_nom": "CAULAINCOURT",
+        "ref:RTE:codnat": "CAULA",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3341748,
+              48.8912602
+            ],
+            [
+              2.3337388,
+              48.8912853
+            ],
+            [
+              2.3335162,
+              48.8912983
+            ],
+            [
+              2.3335089,
+              48.8912422
+            ],
+            [
+              2.3334977,
+              48.8911556
+            ],
+            [
+              2.3338503,
+              48.891139
+            ],
+            [
+              2.33388,
+              48.8911378
+            ],
+            [
+              2.3339633,
+              48.8911339
+            ],
+            [
+              2.3339915,
+              48.8911326
+            ],
+            [
+              2.3341016,
+              48.8911322
+            ],
+            [
+              2.3341548,
+              48.891132
+            ],
+            [
+              2.3341748,
+              48.8912602
+            ]
+          ]
+        ]
+      },
+      "id": "way/76032001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78052541",
+        "building": "yes",
+        "building:levels": "1",
+        "location": "indoor",
+        "name": "Poste électrique de Coriolis",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "CORIO",
+        "ref:FR:RTE_nom": "CORIOLIS",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3916756,
+              48.8359583
+            ],
+            [
+              2.3915777,
+              48.8359362
+            ],
+            [
+              2.3914697,
+              48.835912
+            ],
+            [
+              2.3913105,
+              48.8358764
+            ],
+            [
+              2.3913606,
+              48.8358266
+            ],
+            [
+              2.3915,
+              48.8356879
+            ],
+            [
+              2.3915596,
+              48.8356286
+            ],
+            [
+              2.3917019,
+              48.8356753
+            ],
+            [
+              2.3917587,
+              48.835694
+            ],
+            [
+              2.3917566,
+              48.8356962
+            ],
+            [
+              2.3918929,
+              48.835738
+            ],
+            [
+              2.3916756,
+              48.8359583
+            ]
+          ]
+        ]
+      },
+      "id": "way/78052541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/78148795",
+        "building": "yes",
+        "location": "indoor",
+        "name": "Poste électrique d'Austerlitz",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "AUSTE",
+        "ref:FR:RTE_nom": "AUSTERLITZ",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3694204,
+              48.8495856
+            ],
+            [
+              2.3693248,
+              48.8496254
+            ],
+            [
+              2.3692282,
+              48.8496657
+            ],
+            [
+              2.3691002,
+              48.8495393
+            ],
+            [
+              2.3690587,
+              48.8494884
+            ],
+            [
+              2.3689235,
+              48.849361
+            ],
+            [
+              2.3688867,
+              48.8493263
+            ],
+            [
+              2.36895,
+              48.849297
+            ],
+            [
+              2.3689339,
+              48.849281
+            ],
+            [
+              2.3689579,
+              48.8492704
+            ],
+            [
+              2.3689745,
+              48.8492857
+            ],
+            [
+              2.3690675,
+              48.8492441
+            ],
+            [
+              2.3690722,
+              48.8492488
+            ],
+            [
+              2.3692524,
+              48.8494227
+            ],
+            [
+              2.3692756,
+              48.8494448
+            ],
+            [
+              2.3694204,
+              48.8495856
+            ]
+          ]
+        ]
+      },
+      "id": "way/78148795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79626470",
+        "branch": "RTE",
+        "building": "yes",
+        "building:levels": "5",
+        "frequency": "50",
+        "gas_insulated": "yes",
+        "location": "indoor",
+        "name": "Poste électrique Denfert",
+        "operator": "RATP",
+        "power": "substation",
+        "ref:FR:RTE": "DENFE",
+        "ref:FR:RTE_nom": "DENFERT",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "traction",
+        "voltage": "63000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3342939,
+              48.8327564
+            ],
+            [
+              2.3342375,
+              48.8326576
+            ],
+            [
+              2.3341968,
+              48.8326689
+            ],
+            [
+              2.3341572,
+              48.8326012
+            ],
+            [
+              2.3344491,
+              48.832526
+            ],
+            [
+              2.3345988,
+              48.832789
+            ],
+            [
+              2.3343049,
+              48.8328629
+            ],
+            [
+              2.3342939,
+              48.8328654
+            ],
+            [
+              2.3342367,
+              48.8327691
+            ],
+            [
+              2.3342939,
+              48.8327564
+            ]
+          ]
+        ]
+      },
+      "id": "way/79626470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79805134",
+        "building": "yes",
+        "building:levels": "2",
+        "location": "indoor",
+        "name": "Poste électrique d'Alésia",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "ALESI",
+        "ref:FR:RTE_nom": "ALESIA",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3363332,
+              48.8251888
+            ],
+            [
+              2.3363493,
+              48.8251915
+            ],
+            [
+              2.3364947,
+              48.8252153
+            ],
+            [
+              2.3366133,
+              48.8252348
+            ],
+            [
+              2.3365723,
+              48.8253438
+            ],
+            [
+              2.3365327,
+              48.8253372
+            ],
+            [
+              2.3365046,
+              48.8254125
+            ],
+            [
+              2.3364803,
+              48.8254081
+            ],
+            [
+              2.3364756,
+              48.8254198
+            ],
+            [
+              2.3363108,
+              48.825393
+            ],
+            [
+              2.336315,
+              48.8253805
+            ],
+            [
+              2.3362579,
+              48.8253703
+            ],
+            [
+              2.3362981,
+              48.8252633
+            ],
+            [
+              2.3363053,
+              48.8252643
+            ],
+            [
+              2.3363332,
+              48.8251888
+            ]
+          ]
+        ]
+      },
+      "id": "way/79805134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79805353",
+        "building": "yes",
+        "location": "indoor",
+        "name": "Poste électrique René Coty (RER)",
+        "operator": "RATP",
+        "power": "substation",
+        "ref:FR:RTE": "R.COT",
+        "ref:FR:RTE_nom": "RENE-COTY",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "traction",
+        "voltage": "225000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3365063,
+              48.8247368
+            ],
+            [
+              2.336547,
+              48.8247435
+            ],
+            [
+              2.3369443,
+              48.8248087
+            ],
+            [
+              2.3368715,
+              48.8249973
+            ],
+            [
+              2.3368155,
+              48.824988
+            ],
+            [
+              2.3367925,
+              48.825047
+            ],
+            [
+              2.3364111,
+              48.8249827
+            ],
+            [
+              2.3365063,
+              48.8247368
+            ]
+          ]
+        ]
+      },
+      "id": "way/79805353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/80252320",
+        "building": "service",
+        "location": "indoor",
+        "name": "Poste électrique de Castagnary",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "CASTA",
+        "ref:FR:RTE_nom": "CASTAGNARY",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3105212,
+              48.8354818
+            ],
+            [
+              2.3107475,
+              48.8356741
+            ],
+            [
+              2.3106827,
+              48.8357089
+            ],
+            [
+              2.3106754,
+              48.835703
+            ],
+            [
+              2.310668,
+              48.835697
+            ],
+            [
+              2.3106623,
+              48.8356924
+            ],
+            [
+              2.3103461,
+              48.8358538
+            ],
+            [
+              2.3101047,
+              48.8356479
+            ],
+            [
+              2.3104047,
+              48.8354948
+            ],
+            [
+              2.3104479,
+              48.8355309
+            ],
+            [
+              2.3104637,
+              48.835523
+            ],
+            [
+              2.3104559,
+              48.8355163
+            ],
+            [
+              2.3105212,
+              48.8354818
+            ]
+          ]
+        ]
+      },
+      "id": "way/80252320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/82467033",
+        "building": "yes",
+        "building:levels": "1",
+        "location": "indoor",
+        "name": "Poste électrique d'Alsace",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "ALSAC",
+        "ref:FR:RTE_nom": "ALSACE",
+        "ref:RTE:codnat": "ALSAC",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.2487929,
+              48.8908452
+            ],
+            [
+              2.2488128,
+              48.890856
+            ],
+            [
+              2.248807,
+              48.8908605
+            ],
+            [
+              2.2487772,
+              48.8908441
+            ],
+            [
+              2.2486859,
+              48.8909124
+            ],
+            [
+              2.2487161,
+              48.8909286
+            ],
+            [
+              2.2487082,
+              48.8909318
+            ],
+            [
+              2.248645,
+              48.8908964
+            ],
+            [
+              2.2485563,
+              48.8909647
+            ],
+            [
+              2.2485825,
+              48.8909807
+            ],
+            [
+              2.248576,
+              48.8909858
+            ],
+            [
+              2.2485142,
+              48.8909498
+            ],
+            [
+              2.2484241,
+              48.8910171
+            ],
+            [
+              2.2484546,
+              48.8910359
+            ],
+            [
+              2.248451,
+              48.8910373
+            ],
+            [
+              2.2483885,
+              48.8910016
+            ],
+            [
+              2.2483066,
+              48.891064
+            ],
+            [
+              2.2482914,
+              48.8910552
+            ],
+            [
+              2.2482222,
+              48.8910834
+            ],
+            [
+              2.248207,
+              48.8910674
+            ],
+            [
+              2.248029,
+              48.8911405
+            ],
+            [
+              2.2478503,
+              48.8909509
+            ],
+            [
+              2.2480319,
+              48.8908764
+            ],
+            [
+              2.248058,
+              48.8909059
+            ],
+            [
+              2.2480886,
+              48.890894
+            ],
+            [
+              2.2480898,
+              48.8908838
+            ],
+            [
+              2.2481122,
+              48.8908752
+            ],
+            [
+              2.2481275,
+              48.8908804
+            ],
+            [
+              2.2481462,
+              48.8908734
+            ],
+            [
+              2.2481587,
+              48.8908776
+            ],
+            [
+              2.2481915,
+              48.8908641
+            ],
+            [
+              2.2481942,
+              48.8908504
+            ],
+            [
+              2.2482165,
+              48.8908417
+            ],
+            [
+              2.2482177,
+              48.8908322
+            ],
+            [
+              2.2482483,
+              48.8908201
+            ],
+            [
+              2.2482651,
+              48.8908252
+            ],
+            [
+              2.2482932,
+              48.8908139
+            ],
+            [
+              2.2483071,
+              48.8908176
+            ],
+            [
+              2.2483247,
+              48.8908104
+            ],
+            [
+              2.2483289,
+              48.8907963
+            ],
+            [
+              2.2483469,
+              48.8907887
+            ],
+            [
+              2.2483503,
+              48.8907779
+            ],
+            [
+              2.2483773,
+              48.8907668
+            ],
+            [
+              2.2483944,
+              48.8907727
+            ],
+            [
+              2.2484243,
+              48.8907605
+            ],
+            [
+              2.2484389,
+              48.8907644
+            ],
+            [
+              2.2484566,
+              48.8907572
+            ],
+            [
+              2.2484582,
+              48.8907432
+            ],
+            [
+              2.2484766,
+              48.8907362
+            ],
+            [
+              2.2484793,
+              48.8907247
+            ],
+            [
+              2.2485099,
+              48.8907127
+            ],
+            [
+              2.2485278,
+              48.8907157
+            ],
+            [
+              2.2485541,
+              48.890705
+            ],
+            [
+              2.2485762,
+              48.8907084
+            ],
+            [
+              2.2485921,
+              48.8907017
+            ],
+            [
+              2.2485938,
+              48.8907037
+            ],
+            [
+              2.2486617,
+              48.8906759
+            ],
+            [
+              2.2486713,
+              48.890672
+            ],
+            [
+              2.2487453,
+              48.8907507
+            ],
+            [
+              2.2488174,
+              48.8907213
+            ],
+            [
+              2.2488646,
+              48.8907714
+            ],
+            [
+              2.2488113,
+              48.8907916
+            ],
+            [
+              2.2488166,
+              48.8907975
+            ],
+            [
+              2.2488245,
+              48.8907962
+            ],
+            [
+              2.2488395,
+              48.8907993
+            ],
+            [
+              2.2488476,
+              48.8908061
+            ],
+            [
+              2.24885,
+              48.8908147
+            ],
+            [
+              2.2488474,
+              48.8908203
+            ],
+            [
+              2.2488423,
+              48.8908251
+            ],
+            [
+              2.2488351,
+              48.8908283
+            ],
+            [
+              2.2488265,
+              48.8908299
+            ],
+            [
+              2.2488129,
+              48.8908282
+            ],
+            [
+              2.2487915,
+              48.8908443
+            ],
+            [
+              2.2487929,
+              48.8908452
+            ]
+          ]
+        ]
+      },
+      "id": "way/82467033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/83731566",
+        "building": "yes",
+        "location": "indoor",
+        "name": "Poste électrique de La Muette",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "MUETT",
+        "ref:FR:RTE_nom": "MUETTE",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.2723163,
+              48.8563448
+            ],
+            [
+              2.27226,
+              48.8562974
+            ],
+            [
+              2.2722075,
+              48.8562451
+            ],
+            [
+              2.272183,
+              48.8562205
+            ],
+            [
+              2.2720783,
+              48.8561573
+            ],
+            [
+              2.2721543,
+              48.8561034
+            ],
+            [
+              2.2722258,
+              48.8560527
+            ],
+            [
+              2.2722672,
+              48.8560552
+            ],
+            [
+              2.2723643,
+              48.8561528
+            ],
+            [
+              2.2725379,
+              48.8563272
+            ],
+            [
+              2.2726253,
+              48.8564151
+            ],
+            [
+              2.2726172,
+              48.8564426
+            ],
+            [
+              2.2725528,
+              48.8564726
+            ],
+            [
+              2.2724936,
+              48.8565003
+            ],
+            [
+              2.2724211,
+              48.8564318
+            ],
+            [
+              2.2724185,
+              48.8564324
+            ],
+            [
+              2.2723163,
+              48.8563448
+            ]
+          ]
+        ]
+      },
+      "id": "way/83731566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/83819431",
+        "building": "industrial",
+        "building:levels": "5",
+        "location": "indoor",
+        "name": "Poste source de Vincennes",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "VINC5",
+        "ref:FR:RTE_nom": "VINCENNES",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.4245242,
+              48.8489672
+            ],
+            [
+              2.4242983,
+              48.848981
+            ],
+            [
+              2.4242638,
+              48.8488075
+            ],
+            [
+              2.4244908,
+              48.8487885
+            ],
+            [
+              2.4244696,
+              48.8486741
+            ],
+            [
+              2.4244622,
+              48.8486343
+            ],
+            [
+              2.4244443,
+              48.8485477
+            ],
+            [
+              2.4245627,
+              48.8485381
+            ],
+            [
+              2.42457,
+              48.8485745
+            ],
+            [
+              2.4247221,
+              48.8485636
+            ],
+            [
+              2.4247395,
+              48.8486554
+            ],
+            [
+              2.4247332,
+              48.8486722
+            ],
+            [
+              2.4247424,
+              48.8487212
+            ],
+            [
+              2.4247557,
+              48.8487374
+            ],
+            [
+              2.4247842,
+              48.84889
+            ],
+            [
+              2.4247895,
+              48.8489183
+            ],
+            [
+              2.4247481,
+              48.8489527
+            ],
+            [
+              2.4247156,
+              48.8489547
+            ],
+            [
+              2.424642,
+              48.8489593
+            ],
+            [
+              2.4245849,
+              48.8489631
+            ],
+            [
+              2.4245242,
+              48.8489672
+            ]
+          ]
+        ]
+      },
+      "id": "way/83819431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84323848",
+        "building": "yes",
+        "building:levels": "3",
+        "location": "indoor",
+        "name": "Poste électrique Cardinet",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:RTE:codnat": "CARDI",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3175331,
+              48.8833944
+            ],
+            [
+              2.3175774,
+              48.8833494
+            ],
+            [
+              2.3175955,
+              48.8833572
+            ],
+            [
+              2.3179835,
+              48.8835339
+            ],
+            [
+              2.3178302,
+              48.8836814
+            ],
+            [
+              2.3175033,
+              48.883534
+            ],
+            [
+              2.3176121,
+              48.8834296
+            ],
+            [
+              2.3175331,
+              48.8833944
+            ]
+          ]
+        ]
+      },
+      "id": "way/84323848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84325599",
+        "building": "yes",
+        "name": "Poste source des Ternes",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "TERNE",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.2933455,
+              48.8764908
+            ],
+            [
+              2.293331,
+              48.8765189
+            ],
+            [
+              2.2932941,
+              48.8765923
+            ],
+            [
+              2.2932795,
+              48.8766219
+            ],
+            [
+              2.2932653,
+              48.8766513
+            ],
+            [
+              2.2932208,
+              48.8767396
+            ],
+            [
+              2.2932094,
+              48.8767603
+            ],
+            [
+              2.2931735,
+              48.8767458
+            ],
+            [
+              2.2931009,
+              48.8767165
+            ],
+            [
+              2.2929996,
+              48.8766756
+            ],
+            [
+              2.2929868,
+              48.8766705
+            ],
+            [
+              2.293089,
+              48.8765341
+            ],
+            [
+              2.2931307,
+              48.8764772
+            ],
+            [
+              2.2931589,
+              48.8764393
+            ],
+            [
+              2.2931871,
+              48.8764008
+            ],
+            [
+              2.2931908,
+              48.8764023
+            ],
+            [
+              2.2932152,
+              48.8763698
+            ],
+            [
+              2.2932619,
+              48.8763075
+            ],
+            [
+              2.2932789,
+              48.8762848
+            ],
+            [
+              2.2934636,
+              48.8763298
+            ],
+            [
+              2.2934431,
+              48.8763699
+            ],
+            [
+              2.2934237,
+              48.8764054
+            ],
+            [
+              2.293391,
+              48.8764676
+            ],
+            [
+              2.2934143,
+              48.8764728
+            ],
+            [
+              2.2934335,
+              48.8764775
+            ],
+            [
+              2.2934171,
+              48.876508
+            ],
+            [
+              2.2933455,
+              48.8764908
+            ]
+          ]
+        ]
+      },
+      "id": "way/84325599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/116702384",
+        "barrier": "fence",
+        "name": "Poste Électrique",
+        "operator": "RTE",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "transition",
+        "voltage": "225000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.2594676,
+              48.7997229
+            ],
+            [
+              2.2588957,
+              48.7994895
+            ],
+            [
+              2.2591518,
+              48.7992173
+            ],
+            [
+              2.2591821,
+              48.7991851
+            ],
+            [
+              2.2595412,
+              48.7993317
+            ],
+            [
+              2.259754,
+              48.7994185
+            ],
+            [
+              2.2594676,
+              48.7997229
+            ]
+          ]
+        ]
+      },
+      "id": "way/116702384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/133667044",
+        "barrier": "fence",
+        "name": "Poste électrique de Charenton",
+        "operator": "RTE",
+        "power": "substation",
+        "ref:FR:RTE": "CHARE",
+        "ref:FR:RTE_nom": "CHARENTON",
+        "ref:RTE:codnat": "CHARE",
+        "source": "Bing",
+        "substation": "transmission",
+        "voltage": "225000;63000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.407756,
+              48.8208126
+            ],
+            [
+              2.4076547,
+              48.8210054
+            ],
+            [
+              2.4075795,
+              48.8211283
+            ],
+            [
+              2.4075577,
+              48.8211672
+            ],
+            [
+              2.40752,
+              48.8212366
+            ],
+            [
+              2.4074765,
+              48.8212923
+            ],
+            [
+              2.4071659,
+              48.8215317
+            ],
+            [
+              2.4069017,
+              48.8217405
+            ],
+            [
+              2.4068581,
+              48.8217692
+            ],
+            [
+              2.4068046,
+              48.8218043
+            ],
+            [
+              2.4055356,
+              48.8208042
+            ],
+            [
+              2.405625,
+              48.820757
+            ],
+            [
+              2.4057639,
+              48.8208655
+            ],
+            [
+              2.4061669,
+              48.820628
+            ],
+            [
+              2.4059206,
+              48.8204458
+            ],
+            [
+              2.4063424,
+              48.8202466
+            ],
+            [
+              2.4073689,
+              48.8199915
+            ],
+            [
+              2.4077117,
+              48.8202315
+            ],
+            [
+              2.4072973,
+              48.8204806
+            ],
+            [
+              2.407756,
+              48.8208126
+            ]
+          ]
+        ]
+      },
+      "id": "way/133667044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/199093574",
+        "barrier": "wall",
+        "location": "outdoor",
+        "name": "Poste électrique de Novion",
+        "operator": "RTE",
+        "power": "substation",
+        "ref:FR:RTE": "NOVIO",
+        "ref:FR:RTE_nom": "NOVION",
+        "source": "data.gouv.fr:RTE - 04/2017",
+        "substation": "transmission",
+        "voltage": "225000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.302834,
+              48.9140085
+            ],
+            [
+              2.3028197,
+              48.9139835
+            ],
+            [
+              2.3028085,
+              48.9139622
+            ],
+            [
+              2.3028184,
+              48.9139517
+            ],
+            [
+              2.3034346,
+              48.9132225
+            ],
+            [
+              2.3036179,
+              48.9130055
+            ],
+            [
+              2.3036404,
+              48.9130136
+            ],
+            [
+              2.3037967,
+              48.9130697
+            ],
+            [
+              2.3037367,
+              48.913144
+            ],
+            [
+              2.3038071,
+              48.9131678
+            ],
+            [
+              2.303756,
+              48.9132302
+            ],
+            [
+              2.3040087,
+              48.9133197
+            ],
+            [
+              2.3044072,
+              48.9134627
+            ],
+            [
+              2.3042948,
+              48.913587
+            ],
+            [
+              2.3054589,
+              48.914011
+            ],
+            [
+              2.3053646,
+              48.9141222
+            ],
+            [
+              2.3055323,
+              48.9141817
+            ],
+            [
+              2.305054,
+              48.9147571
+            ],
+            [
+              2.3049801,
+              48.9147358
+            ],
+            [
+              2.3032488,
+              48.9141095
+            ],
+            [
+              2.302834,
+              48.9140085
+            ]
+          ]
+        ]
+      },
+      "id": "way/199093574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231157303",
+        "building": "industrial",
+        "building:levels": "5",
+        "disused": "yes",
+        "location": "indoor",
+        "name": "Poste électrique CPDE de Magenta",
+        "operator": "CPDE",
+        "power": "substation",
+        "voltage": "12000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3536803,
+              48.8763113
+            ],
+            [
+              2.3536205,
+              48.8761041
+            ],
+            [
+              2.3540571,
+              48.8760894
+            ],
+            [
+              2.3540781,
+              48.8762953
+            ],
+            [
+              2.3536803,
+              48.8763113
+            ]
+          ]
+        ]
+      },
+      "id": "way/231157303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231157304",
+        "layer": "-2",
+        "location": "underground",
+        "name": "Poste électrique Foch",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "FOCH",
+        "ref:FR:RTE_nom": "FOCH",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.275123,
+              48.8730002
+            ],
+            [
+              2.2747744,
+              48.8725899
+            ],
+            [
+              2.2749481,
+              48.8725151
+            ],
+            [
+              2.2749689,
+              48.8724403
+            ],
+            [
+              2.2751793,
+              48.872351
+            ],
+            [
+              2.2752918,
+              48.8723663
+            ],
+            [
+              2.2754887,
+              48.8722657
+            ],
+            [
+              2.2759278,
+              48.8726833
+            ],
+            [
+              2.275123,
+              48.8730002
+            ]
+          ]
+        ]
+      },
+      "id": "way/231157304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231157305",
+        "building": "yes",
+        "layer": "-1",
+        "location": "indoor",
+        "name": "Poste électrique Temple",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "TEMP5",
+        "ref:FR:RTE_nom": "TEMPLE",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3741106,
+              48.872612
+            ],
+            [
+              2.374048,
+              48.8725801
+            ],
+            [
+              2.3739223,
+              48.8725137
+            ],
+            [
+              2.3738586,
+              48.8724805
+            ],
+            [
+              2.3741335,
+              48.872181
+            ],
+            [
+              2.3741395,
+              48.8721744
+            ],
+            [
+              2.3742321,
+              48.8722088
+            ],
+            [
+              2.3742227,
+              48.8722205
+            ],
+            [
+              2.374225,
+              48.8722226
+            ],
+            [
+              2.374227,
+              48.872226
+            ],
+            [
+              2.3742273,
+              48.8722286
+            ],
+            [
+              2.3742273,
+              48.8722311
+            ],
+            [
+              2.3742265,
+              48.8722349
+            ],
+            [
+              2.3742252,
+              48.8722378
+            ],
+            [
+              2.3743161,
+              48.872275
+            ],
+            [
+              2.3742742,
+              48.8723187
+            ],
+            [
+              2.3742276,
+              48.8723011
+            ],
+            [
+              2.3741406,
+              48.8724015
+            ],
+            [
+              2.3741833,
+              48.8724165
+            ],
+            [
+              2.3741008,
+              48.8725098
+            ],
+            [
+              2.3741721,
+              48.8725419
+            ],
+            [
+              2.374168,
+              48.8725465
+            ],
+            [
+              2.3741106,
+              48.872612
+            ]
+          ]
+        ]
+      },
+      "id": "way/231157305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231157306",
+        "barrier": "fence",
+        "conversion": "acdc",
+        "location": "outdoor",
+        "name": "Poste électrique de Bercy",
+        "operator": "SNCF Réseau",
+        "owner": "SNCF Réseau",
+        "power": "substation",
+        "ref:FR:RTE": "BERCY",
+        "substation": "traction",
+        "voltage": "63000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3848802,
+              48.837625
+            ],
+            [
+              2.3848121,
+              48.8375529
+            ],
+            [
+              2.3851772,
+              48.8374034
+            ],
+            [
+              2.3851206,
+              48.8373436
+            ],
+            [
+              2.3851463,
+              48.837333
+            ],
+            [
+              2.385127,
+              48.8373128
+            ],
+            [
+              2.3851133,
+              48.8372982
+            ],
+            [
+              2.3856168,
+              48.8370921
+            ],
+            [
+              2.3856498,
+              48.8371269
+            ],
+            [
+              2.3857667,
+              48.837079
+            ],
+            [
+              2.3858226,
+              48.8371381
+            ],
+            [
+              2.3858914,
+              48.837211
+            ],
+            [
+              2.3848802,
+              48.837625
+            ]
+          ]
+        ]
+      },
+      "id": "way/231157306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231157307",
+        "building": "yes",
+        "building:levels": "6",
+        "location": "indoor",
+        "name": "Poste électrique de Longchamps",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "LONG4",
+        "ref:FR:RTE_nom": "LONGCHAMP PARIS",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.2852712,
+              48.8651842
+            ],
+            [
+              2.2852038,
+              48.8651179
+            ],
+            [
+              2.2852308,
+              48.8651144
+            ],
+            [
+              2.2852136,
+              48.865049
+            ],
+            [
+              2.2851762,
+              48.8650546
+            ],
+            [
+              2.2851517,
+              48.8650665
+            ],
+            [
+              2.2850751,
+              48.8649909
+            ],
+            [
+              2.2850394,
+              48.8649554
+            ],
+            [
+              2.2851843,
+              48.8648895
+            ],
+            [
+              2.2852073,
+              48.8649103
+            ],
+            [
+              2.285249,
+              48.8648911
+            ],
+            [
+              2.2852601,
+              48.8649026
+            ],
+            [
+              2.2855289,
+              48.8648653
+            ],
+            [
+              2.2855506,
+              48.8649057
+            ],
+            [
+              2.285644,
+              48.8648929
+            ],
+            [
+              2.2856272,
+              48.8648359
+            ],
+            [
+              2.2858025,
+              48.8648144
+            ],
+            [
+              2.2858104,
+              48.864842
+            ],
+            [
+              2.2857668,
+              48.8648464
+            ],
+            [
+              2.285791,
+              48.8649266
+            ],
+            [
+              2.2858486,
+              48.8649193
+            ],
+            [
+              2.2858989,
+              48.8650941
+            ],
+            [
+              2.2858055,
+              48.8651059
+            ],
+            [
+              2.2856781,
+              48.8651219
+            ],
+            [
+              2.2855086,
+              48.8651433
+            ],
+            [
+              2.2853598,
+              48.8651621
+            ],
+            [
+              2.2852817,
+              48.8651719
+            ],
+            [
+              2.2852806,
+              48.8651787
+            ],
+            [
+              2.2852743,
+              48.8651839
+            ],
+            [
+              2.2852712,
+              48.8651842
+            ]
+          ]
+        ]
+      },
+      "id": "way/231157307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231157308",
+        "building": "industrial",
+        "building:levels": "5",
+        "location": "indoor",
+        "name": "Poste électrique de Magenta",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "MAGEN",
+        "ref:FR:RTE_nom": "MAGENTA",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3544945,
+              48.8762767
+            ],
+            [
+              2.3540781,
+              48.8762953
+            ],
+            [
+              2.3540571,
+              48.8760894
+            ],
+            [
+              2.3543414,
+              48.8760721
+            ],
+            [
+              2.3544862,
+              48.8762356
+            ],
+            [
+              2.3545071,
+              48.8762597
+            ],
+            [
+              2.3544945,
+              48.8762767
+            ]
+          ]
+        ]
+      },
+      "id": "way/231157308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231157309",
+        "building": "yes",
+        "location": "indoor",
+        "name": "Poste électrique de Nation 3",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "NATI3",
+        "ref:FR:RTE_nom": "NATION III",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3950704,
+              48.8533253
+            ],
+            [
+              2.3949325,
+              48.8532963
+            ],
+            [
+              2.3949513,
+              48.8532599
+            ],
+            [
+              2.3950286,
+              48.8531099
+            ],
+            [
+              2.3953266,
+              48.8531732
+            ],
+            [
+              2.3952906,
+              48.8532435
+            ],
+            [
+              2.3953069,
+              48.853246
+            ],
+            [
+              2.3951747,
+              48.853514
+            ],
+            [
+              2.3949942,
+              48.8534751
+            ],
+            [
+              2.3950704,
+              48.8533253
+            ]
+          ]
+        ]
+      },
+      "id": "way/231157309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231157310",
+        "building": "service",
+        "location": "indoor",
+        "name": "Poste électrique d'Ornano",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "ORNA5",
+        "ref:FR:RTE_nom": "ORNANO",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3554968,
+              48.8885866
+            ],
+            [
+              2.3555038,
+              48.8885531
+            ],
+            [
+              2.3555121,
+              48.888515
+            ],
+            [
+              2.3555364,
+              48.8883902
+            ],
+            [
+              2.3555512,
+              48.8883223
+            ],
+            [
+              2.3555601,
+              48.8882745
+            ],
+            [
+              2.3555679,
+              48.8882356
+            ],
+            [
+              2.3557813,
+              48.8882572
+            ],
+            [
+              2.355791,
+              48.8882051
+            ],
+            [
+              2.355897,
+              48.888213
+            ],
+            [
+              2.3558885,
+              48.8882565
+            ],
+            [
+              2.3558862,
+              48.8882668
+            ],
+            [
+              2.3558776,
+              48.888308
+            ],
+            [
+              2.3558674,
+              48.8883613
+            ],
+            [
+              2.3558644,
+              48.8883761
+            ],
+            [
+              2.3558476,
+              48.8884583
+            ],
+            [
+              2.3558439,
+              48.8884771
+            ],
+            [
+              2.3558331,
+              48.8885323
+            ],
+            [
+              2.3558281,
+              48.8885554
+            ],
+            [
+              2.3558159,
+              48.8886157
+            ],
+            [
+              2.3557626,
+              48.8886107
+            ],
+            [
+              2.3557246,
+              48.8886072
+            ],
+            [
+              2.3556551,
+              48.888601
+            ],
+            [
+              2.3554968,
+              48.8885866
+            ]
+          ]
+        ]
+      },
+      "id": "way/231157310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231157311",
+        "building": "yes",
+        "location": "indoor",
+        "name": "Poste électrique de Sèvres",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "SEVRE",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3298646,
+              48.8508696
+            ],
+            [
+              2.3297935,
+              48.8508904
+            ],
+            [
+              2.3299759,
+              48.8511692
+            ],
+            [
+              2.330063,
+              48.8511437
+            ],
+            [
+              2.3301166,
+              48.8512289
+            ],
+            [
+              2.3300618,
+              48.8512449
+            ],
+            [
+              2.330042,
+              48.8512144
+            ],
+            [
+              2.3300096,
+              48.8512233
+            ],
+            [
+              2.3300297,
+              48.8512543
+            ],
+            [
+              2.3299757,
+              48.8512696
+            ],
+            [
+              2.3299303,
+              48.851282
+            ],
+            [
+              2.3299006,
+              48.8512907
+            ],
+            [
+              2.3298934,
+              48.8512931
+            ],
+            [
+              2.3298223,
+              48.851313
+            ],
+            [
+              2.3297337,
+              48.8511818
+            ],
+            [
+              2.3296867,
+              48.851196
+            ],
+            [
+              2.3296617,
+              48.8511583
+            ],
+            [
+              2.3295633,
+              48.8510139
+            ],
+            [
+              2.3295289,
+              48.8509634
+            ],
+            [
+              2.3295163,
+              48.8509433
+            ],
+            [
+              2.3294659,
+              48.8508689
+            ],
+            [
+              2.3296078,
+              48.8508266
+            ],
+            [
+              2.3297628,
+              48.8508009
+            ],
+            [
+              2.3297864,
+              48.8508305
+            ],
+            [
+              2.3298189,
+              48.8508219
+            ],
+            [
+              2.3298628,
+              48.8508676
+            ],
+            [
+              2.3298646,
+              48.8508696
+            ]
+          ]
+        ]
+      },
+      "id": "way/231157311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231157312",
+        "building": "service",
+        "location": "indoor",
+        "name": "Poste électrique de Tolbiac",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "TOLBI",
+        "ref:FR:RTE_nom": "TOLBIAC",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3550603,
+              48.8267255
+            ],
+            [
+              2.3551411,
+              48.8266241
+            ],
+            [
+              2.3550974,
+              48.8266025
+            ],
+            [
+              2.3551147,
+              48.8264686
+            ],
+            [
+              2.3555775,
+              48.8264914
+            ],
+            [
+              2.3555511,
+              48.8266936
+            ],
+            [
+              2.3555366,
+              48.826714
+            ],
+            [
+              2.3553943,
+              48.8267219
+            ],
+            [
+              2.3553899,
+              48.8267606
+            ],
+            [
+              2.3553567,
+              48.8267448
+            ],
+            [
+              2.3552582,
+              48.8266955
+            ],
+            [
+              2.3552063,
+              48.8267613
+            ],
+            [
+              2.3551981,
+              48.8267721
+            ],
+            [
+              2.3550603,
+              48.8267255
+            ]
+          ]
+        ]
+      },
+      "id": "way/231157312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231157313",
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Poste électrique de Valmy",
+        "operator": "SNCF Réseau",
+        "owner": "SNCF Réseau",
+        "power": "substation",
+        "ref:FR:RTE": "VALMY",
+        "ref:FR:RTE_nom": "VALMY",
+        "ref:RTE:codnat": "VALMY",
+        "substation": "traction",
+        "voltage": "63000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3956121,
+              48.830566
+            ],
+            [
+              2.395395,
+              48.830503
+            ],
+            [
+              2.3954912,
+              48.8303528
+            ],
+            [
+              2.3955137,
+              48.8303207
+            ],
+            [
+              2.3953976,
+              48.8302855
+            ],
+            [
+              2.3955306,
+              48.8301004
+            ],
+            [
+              2.3956529,
+              48.8300878
+            ],
+            [
+              2.3957109,
+              48.8299866
+            ],
+            [
+              2.395741,
+              48.8299682
+            ],
+            [
+              2.3957674,
+              48.8299604
+            ],
+            [
+              2.395847,
+              48.829877
+            ],
+            [
+              2.3958615,
+              48.8298678
+            ],
+            [
+              2.3959347,
+              48.8298285
+            ],
+            [
+              2.3960287,
+              48.8297521
+            ],
+            [
+              2.3961495,
+              48.8297912
+            ],
+            [
+              2.3956121,
+              48.830566
+            ]
+          ]
+        ]
+      },
+      "id": "way/231157313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231157314",
+        "building": "service",
+        "location": "indoor",
+        "name": "Poste électrique des Gobelins",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "GOBEL",
+        "ref:FR:RTE_nom": "GOBELINS",
+        "ref:RTE:codnat": "GOBEL",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3543295,
+              48.8347447
+            ],
+            [
+              2.3544585,
+              48.8348054
+            ],
+            [
+              2.3544986,
+              48.834824
+            ],
+            [
+              2.3543336,
+              48.8349783
+            ],
+            [
+              2.3542908,
+              48.8349579
+            ],
+            [
+              2.3542434,
+              48.8349348
+            ],
+            [
+              2.3541687,
+              48.8348981
+            ],
+            [
+              2.354306,
+              48.8347672
+            ],
+            [
+              2.3543295,
+              48.8347447
+            ]
+          ]
+        ]
+      },
+      "id": "way/231157314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231157315",
+        "location": "indoor",
+        "name": "Poste électrique des Halles",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "HALLE",
+        "ref:FR:RTE_nom": "HALLES",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3476332,
+              48.8633996
+            ],
+            [
+              2.3476752,
+              48.8633208
+            ],
+            [
+              2.3476589,
+              48.8632917
+            ],
+            [
+              2.347639,
+              48.8632538
+            ],
+            [
+              2.3475911,
+              48.8631682
+            ],
+            [
+              2.3476459,
+              48.8631535
+            ],
+            [
+              2.3477568,
+              48.863129
+            ],
+            [
+              2.3478092,
+              48.8631457
+            ],
+            [
+              2.3479174,
+              48.863346
+            ],
+            [
+              2.3478941,
+              48.8633515
+            ],
+            [
+              2.3479038,
+              48.8633695
+            ],
+            [
+              2.3478871,
+              48.8633733
+            ],
+            [
+              2.3477558,
+              48.8634041
+            ],
+            [
+              2.3477326,
+              48.8634094
+            ],
+            [
+              2.3477013,
+              48.8634165
+            ],
+            [
+              2.3476332,
+              48.8633996
+            ]
+          ]
+        ]
+      },
+      "id": "way/231157315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/270540194",
+        "barrier": "wall",
+        "location": "outdoor",
+        "name": "Poste électrique de Saint-Ouen",
+        "operator": "RTE",
+        "power": "substation",
+        "ref:FR:RTE": "SSOU5",
+        "ref:FR:RTE_nom": "ST-OUEN (POSTE)",
+        "ref:RTE:codnat": "SSOU5",
+        "source": "data.gouv.fr:RTE - 12/2018",
+        "substation": "transmission",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3270276,
+              48.9109293
+            ],
+            [
+              2.3270085,
+              48.910921
+            ],
+            [
+              2.3269727,
+              48.9109042
+            ],
+            [
+              2.3267199,
+              48.9107847
+            ],
+            [
+              2.3268105,
+              48.9106135
+            ],
+            [
+              2.3267432,
+              48.9106001
+            ],
+            [
+              2.3267426,
+              48.910583
+            ],
+            [
+              2.3265875,
+              48.9105082
+            ],
+            [
+              2.3265126,
+              48.9104736
+            ],
+            [
+              2.3263788,
+              48.9104092
+            ],
+            [
+              2.3263711,
+              48.9102756
+            ],
+            [
+              2.3264091,
+              48.9102076
+            ],
+            [
+              2.3264635,
+              48.9101085
+            ],
+            [
+              2.3265263,
+              48.9100661
+            ],
+            [
+              2.3265555,
+              48.9100404
+            ],
+            [
+              2.3265307,
+              48.9099937
+            ],
+            [
+              2.3265612,
+              48.9099632
+            ],
+            [
+              2.326587,
+              48.9099373
+            ],
+            [
+              2.3265694,
+              48.9099139
+            ],
+            [
+              2.32664,
+              48.9097765
+            ],
+            [
+              2.3270286,
+              48.9098625
+            ],
+            [
+              2.3271874,
+              48.9095711
+            ],
+            [
+              2.3274248,
+              48.9096797
+            ],
+            [
+              2.3274766,
+              48.9097034
+            ],
+            [
+              2.3275868,
+              48.9097539
+            ],
+            [
+              2.3276092,
+              48.9097641
+            ],
+            [
+              2.3278569,
+              48.9098774
+            ],
+            [
+              2.3278675,
+              48.9098823
+            ],
+            [
+              2.3279191,
+              48.909833
+            ],
+            [
+              2.3280963,
+              48.9096637
+            ],
+            [
+              2.328709,
+              48.9099494
+            ],
+            [
+              2.3284167,
+              48.9102188
+            ],
+            [
+              2.3288277,
+              48.9104141
+            ],
+            [
+              2.3278534,
+              48.9113179
+            ],
+            [
+              2.3270276,
+              48.9109293
+            ]
+          ]
+        ]
+      },
+      "id": "way/270540194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290139367",
+        "barrier": "wall",
+        "location": "outdoor",
+        "name": "Poste électrique Harcourt",
+        "operator": "RTE",
+        "power": "substation",
+        "ref:FR:RTE": "HARC7",
+        "ref:FR:RTE_nom": "HARCOURT (POSTE BLINDE)",
+        "ref:RTE:codnat": "HARC7",
+        "source": "data.gouv.fr:RTE - 04/2017",
+        "substation": "transmission",
+        "voltage": "225000;63000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.2672048,
+              48.833744
+            ],
+            [
+              2.2673029,
+              48.833665
+            ],
+            [
+              2.2673772,
+              48.8336051
+            ],
+            [
+              2.2673652,
+              48.8335981
+            ],
+            [
+              2.2675746,
+              48.8334166
+            ],
+            [
+              2.268051,
+              48.833664
+            ],
+            [
+              2.268623,
+              48.8339546
+            ],
+            [
+              2.2681141,
+              48.8343927
+            ],
+            [
+              2.2680789,
+              48.8343952
+            ],
+            [
+              2.2680342,
+              48.8343797
+            ],
+            [
+              2.2677929,
+              48.834262
+            ],
+            [
+              2.2673558,
+              48.8338995
+            ],
+            [
+              2.2672048,
+              48.833744
+            ]
+          ]
+        ]
+      },
+      "id": "way/290139367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306704272",
+        "name": "Poste électrique de Courbevoie",
+        "operator": "RTE",
+        "power": "substation",
+        "ref:FR:RTE": "CZBEV",
+        "ref:FR:RTE_nom": "COURBEVOIE",
+        "source": "data.gouv.fr:RTE - 04/2017",
+        "voltage": "63000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.2608143,
+              48.9053971
+            ],
+            [
+              2.2608648,
+              48.9053242
+            ],
+            [
+              2.2608619,
+              48.9053236
+            ],
+            [
+              2.2608682,
+              48.9053145
+            ],
+            [
+              2.260865,
+              48.9053133
+            ],
+            [
+              2.2609821,
+              48.9051404
+            ],
+            [
+              2.2612158,
+              48.905206
+            ],
+            [
+              2.261215,
+              48.9052071
+            ],
+            [
+              2.261685,
+              48.9053406
+            ],
+            [
+              2.2616642,
+              48.9053741
+            ],
+            [
+              2.261576,
+              48.905504
+            ],
+            [
+              2.2614588,
+              48.905676
+            ],
+            [
+              2.2610626,
+              48.9055598
+            ],
+            [
+              2.2608112,
+              48.9054835
+            ],
+            [
+              2.2605962,
+              48.9054184
+            ],
+            [
+              2.2606439,
+              48.9053453
+            ],
+            [
+              2.2608143,
+              48.9053971
+            ]
+          ]
+        ]
+      },
+      "id": "way/306704272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/307228675",
+        "building": "yes",
+        "building:levels": "4",
+        "location": "indoor",
+        "name": "Poste électrique Pyramides",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "PYRAM",
+        "ref:FR:RTE_nom": "PYRAMIDES",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.330466,
+              48.8659559
+            ],
+            [
+              2.3307175,
+              48.8658862
+            ],
+            [
+              2.3307661,
+              48.865958
+            ],
+            [
+              2.3308797,
+              48.866132
+            ],
+            [
+              2.3309614,
+              48.866268
+            ],
+            [
+              2.3309769,
+              48.8662932
+            ],
+            [
+              2.3309001,
+              48.8663186
+            ],
+            [
+              2.3307755,
+              48.866356
+            ],
+            [
+              2.3307287,
+              48.8663712
+            ],
+            [
+              2.3307224,
+              48.8663609
+            ],
+            [
+              2.3306599,
+              48.8662599
+            ],
+            [
+              2.3306562,
+              48.8662592
+            ],
+            [
+              2.330466,
+              48.8659559
+            ]
+          ]
+        ]
+      },
+      "id": "way/307228675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327505354",
+        "barrier": "wall",
+        "location": "indoor",
+        "name": "Poste électrique Avenir",
+        "operator": "RTE",
+        "power": "substation",
+        "ref:FR:RTE": "AVENI",
+        "ref:FR:RTE_nom": "AVENIR",
+        "start_date": "1992",
+        "substation": "transmission",
+        "voltage": "225000;20000;15000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.417693,
+              48.915745
+            ],
+            [
+              2.4177113,
+              48.9157785
+            ],
+            [
+              2.4177306,
+              48.9158076
+            ],
+            [
+              2.4177534,
+              48.915842
+            ],
+            [
+              2.4178543,
+              48.9158573
+            ],
+            [
+              2.4181926,
+              48.9163889
+            ],
+            [
+              2.4182425,
+              48.9164673
+            ],
+            [
+              2.4182327,
+              48.916485
+            ],
+            [
+              2.4182186,
+              48.9165093
+            ],
+            [
+              2.4182082,
+              48.9165125
+            ],
+            [
+              2.4180318,
+              48.9165584
+            ],
+            [
+              2.4179927,
+              48.9165463
+            ],
+            [
+              2.4167926,
+              48.9168844
+            ],
+            [
+              2.4164738,
+              48.9163983
+            ],
+            [
+              2.4161522,
+              48.9159168
+            ],
+            [
+              2.416594,
+              48.9157932
+            ],
+            [
+              2.4174928,
+              48.9155415
+            ],
+            [
+              2.4175367,
+              48.9155293
+            ],
+            [
+              2.4176276,
+              48.9155038
+            ],
+            [
+              2.4177407,
+              48.9156867
+            ],
+            [
+              2.417693,
+              48.915745
+            ]
+          ]
+        ]
+      },
+      "id": "way/327505354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/497510591",
+        "barrier": "fence",
+        "location": "indoor",
+        "name": "Poste électrique Seine",
+        "operator": "RTE",
+        "power": "substation",
+        "ref:FR:RTE": "SEINE",
+        "ref:FR:RTE_nom": "SEINE",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "start_date": "2010-05",
+        "substation": "transmission",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3375156,
+              48.9258844
+            ],
+            [
+              2.3375418,
+              48.9258627
+            ],
+            [
+              2.3374925,
+              48.9258289
+            ],
+            [
+              2.3375065,
+              48.9258207
+            ],
+            [
+              2.3373708,
+              48.9257212
+            ],
+            [
+              2.3373571,
+              48.9257293
+            ],
+            [
+              2.3373117,
+              48.925696
+            ],
+            [
+              2.3373253,
+              48.925688
+            ],
+            [
+              2.3371874,
+              48.925587
+            ],
+            [
+              2.3371764,
+              48.9255935
+            ],
+            [
+              2.3371274,
+              48.9255576
+            ],
+            [
+              2.3370805,
+              48.9255129
+            ],
+            [
+              2.3369604,
+              48.9254354
+            ],
+            [
+              2.3369447,
+              48.9254245
+            ],
+            [
+              2.3368867,
+              48.9253843
+            ],
+            [
+              2.3368987,
+              48.9253763
+            ],
+            [
+              2.3367606,
+              48.9252715
+            ],
+            [
+              2.3367485,
+              48.9252776
+            ],
+            [
+              2.3365742,
+              48.9251375
+            ],
+            [
+              2.3365635,
+              48.9251455
+            ],
+            [
+              2.3365152,
+              48.9251067
+            ],
+            [
+              2.3367827,
+              48.9249499
+            ],
+            [
+              2.3369658,
+              48.9250891
+            ],
+            [
+              2.3369752,
+              48.9250847
+            ],
+            [
+              2.3372233,
+              48.9252715
+            ],
+            [
+              2.3373882,
+              48.9253318
+            ],
+            [
+              2.3384678,
+              48.9246996
+            ],
+            [
+              2.3385288,
+              48.9247423
+            ],
+            [
+              2.338613,
+              48.9246907
+            ],
+            [
+              2.3389012,
+              48.9245243
+            ],
+            [
+              2.3389789,
+              48.9244766
+            ],
+            [
+              2.3390595,
+              48.924429
+            ],
+            [
+              2.33915,
+              48.9244958
+            ],
+            [
+              2.3397193,
+              48.9249157
+            ],
+            [
+              2.339411,
+              48.9251961
+            ],
+            [
+              2.3380698,
+              48.9258564
+            ],
+            [
+              2.3379332,
+              48.9259277
+            ],
+            [
+              2.3378141,
+              48.9259427
+            ],
+            [
+              2.3377012,
+              48.9259364
+            ],
+            [
+              2.3376202,
+              48.9259222
+            ],
+            [
+              2.3375462,
+              48.9259011
+            ],
+            [
+              2.3375156,
+              48.9258844
+            ]
+          ]
+        ]
+      },
+      "id": "way/497510591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/612284338",
+        "barrier": "wall",
+        "location": "indoor",
+        "name": "Poste électrique de Vanves",
+        "operator": "RTE",
+        "power": "substation",
+        "ref:FR:RTE": "VANVE",
+        "ref:FR:RTE_nom": "VANVES",
+        "substation": "transmission",
+        "voltage": "63000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.2788772,
+              48.813521
+            ],
+            [
+              2.2787287,
+              48.8133691
+            ],
+            [
+              2.2785077,
+              48.813143
+            ],
+            [
+              2.2783803,
+              48.8130352
+            ],
+            [
+              2.2785875,
+              48.812931
+            ],
+            [
+              2.2785815,
+              48.8129244
+            ],
+            [
+              2.2787713,
+              48.8128273
+            ],
+            [
+              2.2788627,
+              48.8127679
+            ],
+            [
+              2.2789408,
+              48.8127153
+            ],
+            [
+              2.2790563,
+              48.8126437
+            ],
+            [
+              2.2791246,
+              48.8125963
+            ],
+            [
+              2.2795256,
+              48.812814
+            ],
+            [
+              2.2795343,
+              48.812859
+            ],
+            [
+              2.2788933,
+              48.8135086
+            ],
+            [
+              2.2788772,
+              48.813521
+            ]
+          ]
+        ]
+      },
+      "id": "way/612284338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/655200312",
+        "barrier": "wall",
+        "location": "outdoor",
+        "name": "Poste électrique de Malassis",
+        "operator": "RTE",
+        "power": "substation",
+        "ref:FR:RTE": "MALA6",
+        "ref:FR:RTE_nom": "MALASSIS",
+        "substation": "transmission",
+        "voltage": "225000;63000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.4334424,
+              48.8711576
+            ],
+            [
+              2.4335039,
+              48.8708997
+            ],
+            [
+              2.4331418,
+              48.8708653
+            ],
+            [
+              2.4331098,
+              48.8709703
+            ],
+            [
+              2.43273,
+              48.8707506
+            ],
+            [
+              2.4325695,
+              48.8706481
+            ],
+            [
+              2.4324095,
+              48.870546
+            ],
+            [
+              2.4324129,
+              48.8705376
+            ],
+            [
+              2.4328427,
+              48.8706218
+            ],
+            [
+              2.4329453,
+              48.8704004
+            ],
+            [
+              2.4334214,
+              48.8704758
+            ],
+            [
+              2.4334341,
+              48.8704357
+            ],
+            [
+              2.4336983,
+              48.8704666
+            ],
+            [
+              2.4342777,
+              48.8704948
+            ],
+            [
+              2.4341784,
+              48.8709562
+            ],
+            [
+              2.4342629,
+              48.8709632
+            ],
+            [
+              2.4342073,
+              48.8712561
+            ],
+            [
+              2.4338827,
+              48.8712155
+            ],
+            [
+              2.4336376,
+              48.8711933
+            ],
+            [
+              2.4336358,
+              48.8712003
+            ],
+            [
+              2.4334958,
+              48.8711873
+            ],
+            [
+              2.4334424,
+              48.8711576
+            ]
+          ]
+        ]
+      },
+      "id": "way/655200312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/655200313",
+        "building": "service",
+        "layer": "-2",
+        "location": "underground",
+        "name": "Poste électrique d’Alma",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "ALMA",
+        "ref:FR:RTE_nom": "ALMA",
+        "substation": "distribution",
+        "voltage": "225000;20000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3046621,
+              48.8643946
+            ],
+            [
+              2.3041501,
+              48.8643817
+            ],
+            [
+              2.3041594,
+              48.864222
+            ],
+            [
+              2.3046713,
+              48.8642349
+            ],
+            [
+              2.3046621,
+              48.8643946
+            ]
+          ]
+        ]
+      },
+      "id": "way/655200313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/658561056",
+        "barrier": "wall",
+        "location": "indoor",
+        "name": "Poste électrique de Moulineaux",
+        "operator": "RTE",
+        "power": "substation",
+        "ref:FR:RTE": "MOUL8",
+        "ref:FR:RTE_nom": "MOULINEAUX",
+        "substation": "transmission",
+        "voltage": "225000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.2685782,
+              48.8267623
+            ],
+            [
+              2.2684272,
+              48.8266903
+            ],
+            [
+              2.2682987,
+              48.8266288
+            ],
+            [
+              2.2681044,
+              48.8265355
+            ],
+            [
+              2.2680367,
+              48.8265058
+            ],
+            [
+              2.2684176,
+              48.8261115
+            ],
+            [
+              2.2683318,
+              48.8260742
+            ],
+            [
+              2.2685849,
+              48.8257937
+            ],
+            [
+              2.2688927,
+              48.825899
+            ],
+            [
+              2.2689016,
+              48.8258888
+            ],
+            [
+              2.2689282,
+              48.8258977
+            ],
+            [
+              2.2691515,
+              48.8259751
+            ],
+            [
+              2.2690094,
+              48.8261058
+            ],
+            [
+              2.269173,
+              48.8261822
+            ],
+            [
+              2.2688213,
+              48.8265128
+            ],
+            [
+              2.268838,
+              48.8265203
+            ],
+            [
+              2.2687873,
+              48.8265676
+            ],
+            [
+              2.2685782,
+              48.8267623
+            ]
+          ]
+        ]
+      },
+      "id": "way/658561056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/682366021",
+        "location": "indoor",
+        "name": "Poste électrique de Berthollet",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "BERT5",
+        "ref:FR:RTE_nom": "BERTHOLLET",
+        "substation": "distribution",
+        "voltage": "225000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3273626,
+              48.8068951
+            ],
+            [
+              2.327298,
+              48.8068065
+            ],
+            [
+              2.3272205,
+              48.8066997
+            ],
+            [
+              2.3270804,
+              48.8065066
+            ],
+            [
+              2.32756,
+              48.8063211
+            ],
+            [
+              2.3275419,
+              48.8062995
+            ],
+            [
+              2.3275754,
+              48.8062721
+            ],
+            [
+              2.3278929,
+              48.806151
+            ],
+            [
+              2.328035,
+              48.8063041
+            ],
+            [
+              2.3280582,
+              48.8063339
+            ],
+            [
+              2.3280869,
+              48.8063709
+            ],
+            [
+              2.3281906,
+              48.8063338
+            ],
+            [
+              2.3282209,
+              48.806323
+            ],
+            [
+              2.3283463,
+              48.8064643
+            ],
+            [
+              2.3284614,
+              48.8064197
+            ],
+            [
+              2.3285812,
+              48.8063649
+            ],
+            [
+              2.3286188,
+              48.8064713
+            ],
+            [
+              2.3283103,
+              48.8066011
+            ],
+            [
+              2.3283023,
+              48.8065905
+            ],
+            [
+              2.3281893,
+              48.8066272
+            ],
+            [
+              2.3273626,
+              48.8068951
+            ]
+          ]
+        ]
+      },
+      "id": "way/682366021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/682366052",
+        "barrier": "wall",
+        "location": "outdoor",
+        "name": "Poste électrique de Crétaine",
+        "operator": "RTE",
+        "power": "substation",
+        "ref:FR:RTE": "CRETA",
+        "ref:FR:RTE_nom": "CRETAINE",
+        "substation": "transmission",
+        "voltage": "225000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3570884,
+              48.7994138
+            ],
+            [
+              2.3571065,
+              48.7993959
+            ],
+            [
+              2.35714,
+              48.7993796
+            ],
+            [
+              2.3571675,
+              48.7993747
+            ],
+            [
+              2.3572044,
+              48.7993738
+            ],
+            [
+              2.357242,
+              48.7993782
+            ],
+            [
+              2.3572515,
+              48.7993597
+            ],
+            [
+              2.3572612,
+              48.7993409
+            ],
+            [
+              2.3572786,
+              48.7993071
+            ],
+            [
+              2.3572815,
+              48.7993014
+            ],
+            [
+              2.3572581,
+              48.7992943
+            ],
+            [
+              2.3572399,
+              48.7992864
+            ],
+            [
+              2.357193,
+              48.799251
+            ],
+            [
+              2.357193,
+              48.7992307
+            ],
+            [
+              2.3572011,
+              48.7992135
+            ],
+            [
+              2.3573605,
+              48.7989272
+            ],
+            [
+              2.3574777,
+              48.7987168
+            ],
+            [
+              2.3575135,
+              48.7986566
+            ],
+            [
+              2.3575244,
+              48.7986429
+            ],
+            [
+              2.3575407,
+              48.7986321
+            ],
+            [
+              2.3575651,
+              48.7986273
+            ],
+            [
+              2.357594,
+              48.7986258
+            ],
+            [
+              2.3576062,
+              48.7985972
+            ],
+            [
+              2.3576262,
+              48.7985505
+            ],
+            [
+              2.3587743,
+              48.7988372
+            ],
+            [
+              2.3590465,
+              48.7989018
+            ],
+            [
+              2.3598859,
+              48.7991154
+            ],
+            [
+              2.3594018,
+              48.7999922
+            ],
+            [
+              2.35897,
+              48.7998826
+            ],
+            [
+              2.3582102,
+              48.7996945
+            ],
+            [
+              2.3576242,
+              48.7995474
+            ],
+            [
+              2.3570884,
+              48.7994138
+            ]
+          ]
+        ]
+      },
+      "id": "way/682366052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/715176993",
+        "landuse": "industrial",
+        "location": "indoor",
+        "name": "Poste électrique des Menus",
+        "operator": "RTE",
+        "power": "substation",
+        "ref:FR:RTE": "MENUS",
+        "ref:FR:RTE_nom": "MENUS",
+        "substation": "transmission",
+        "voltage": "225000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.2352791,
+              48.8480246
+            ],
+            [
+              2.235023,
+              48.8476614
+            ],
+            [
+              2.234938,
+              48.8475435
+            ],
+            [
+              2.2348901,
+              48.8474712
+            ],
+            [
+              2.2350406,
+              48.8474453
+            ],
+            [
+              2.2350905,
+              48.8474368
+            ],
+            [
+              2.235117,
+              48.8474323
+            ],
+            [
+              2.235118,
+              48.8474345
+            ],
+            [
+              2.235173,
+              48.8474231
+            ],
+            [
+              2.2351746,
+              48.8474227
+            ],
+            [
+              2.2351762,
+              48.847425
+            ],
+            [
+              2.2352918,
+              48.8473997
+            ],
+            [
+              2.2353343,
+              48.847391
+            ],
+            [
+              2.2353477,
+              48.8473884
+            ],
+            [
+              2.2354147,
+              48.8473775
+            ],
+            [
+              2.2355334,
+              48.8473588
+            ],
+            [
+              2.2356149,
+              48.8473434
+            ],
+            [
+              2.235709,
+              48.8476206
+            ],
+            [
+              2.2358202,
+              48.847948
+            ],
+            [
+              2.2357572,
+              48.8479579
+            ],
+            [
+              2.2357214,
+              48.8479532
+            ],
+            [
+              2.2357137,
+              48.8479311
+            ],
+            [
+              2.2356867,
+              48.8479224
+            ],
+            [
+              2.2356686,
+              48.8478701
+            ],
+            [
+              2.2354129,
+              48.8479082
+            ],
+            [
+              2.2354094,
+              48.8479304
+            ],
+            [
+              2.2354248,
+              48.8479546
+            ],
+            [
+              2.235448,
+              48.8479509
+            ],
+            [
+              2.2354685,
+              48.8479825
+            ],
+            [
+              2.2354338,
+              48.8479903
+            ],
+            [
+              2.2352791,
+              48.8480246
+            ]
+          ]
+        ]
+      },
+      "id": "way/715176993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/715177008",
+        "building": "yes",
+        "layer": "-2",
+        "location": "underground",
+        "name": "Poste source de Courcelles",
+        "note": "Poste électrique important sous la place",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "CZCEL",
+        "ref:FR:RTE_nom": "COURCELLES",
+        "substation": "distribution",
+        "voltage": "225000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.3102236,
+              48.874058
+            ],
+            [
+              2.3101527,
+              48.8740162
+            ],
+            [
+              2.3101127,
+              48.8739926
+            ],
+            [
+              2.3101927,
+              48.873934
+            ],
+            [
+              2.310067,
+              48.8738598
+            ],
+            [
+              2.3102264,
+              48.8737429
+            ],
+            [
+              2.3105767,
+              48.8739495
+            ],
+            [
+              2.3103836,
+              48.8740911
+            ],
+            [
+              2.3102699,
+              48.874024
+            ],
+            [
+              2.3102236,
+              48.874058
+            ]
+          ]
+        ]
+      },
+      "id": "way/715177008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/715177012",
+        "name": "Poste source de Puteaux",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "PUTE5",
+        "ref:FR:RTE_nom": "PUTEAUX IMPASSE LEGAGNEUX",
+        "substation": "distribution",
+        "voltage": "63000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.2371554,
+              48.876616
+            ],
+            [
+              2.237079,
+              48.8766497
+            ],
+            [
+              2.2369261,
+              48.8765311
+            ],
+            [
+              2.2368499,
+              48.876469
+            ],
+            [
+              2.236729,
+              48.8763721
+            ],
+            [
+              2.2367229,
+              48.8763747
+            ],
+            [
+              2.2365838,
+              48.8762482
+            ],
+            [
+              2.2363746,
+              48.8760596
+            ],
+            [
+              2.2365285,
+              48.8759835
+            ],
+            [
+              2.2365563,
+              48.8759701
+            ],
+            [
+              2.2367139,
+              48.8758943
+            ],
+            [
+              2.2367819,
+              48.8759551
+            ],
+            [
+              2.2368248,
+              48.8759942
+            ],
+            [
+              2.2370596,
+              48.876205
+            ],
+            [
+              2.237069,
+              48.8762134
+            ],
+            [
+              2.2374075,
+              48.8765176
+            ],
+            [
+              2.237293,
+              48.8765731
+            ],
+            [
+              2.2371711,
+              48.8766306
+            ],
+            [
+              2.2371554,
+              48.876616
+            ]
+          ]
+        ]
+      },
+      "id": "way/715177012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/740849522",
+        "barrier": "fence",
+        "location": "indoor",
+        "name": "Poste de Vitry-Nord",
+        "operator": "Enedis",
+        "power": "substation",
+        "ref:FR:RTE": "VIT.N",
+        "ref:FR:RTE_nom": "VITRY-NORD (SIEGE GMR EST)",
+        "substation": "distribution",
+        "voltage": "225000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.4065953,
+              48.8054463
+            ],
+            [
+              2.4062748,
+              48.8054014
+            ],
+            [
+              2.4062858,
+              48.8053699
+            ],
+            [
+              2.4059472,
+              48.8053239
+            ],
+            [
+              2.405966,
+              48.8052655
+            ],
+            [
+              2.4060302,
+              48.8050661
+            ],
+            [
+              2.4060437,
+              48.8050241
+            ],
+            [
+              2.4062506,
+              48.8050543
+            ],
+            [
+              2.4063131,
+              48.8050634
+            ],
+            [
+              2.406315,
+              48.805057
+            ],
+            [
+              2.406452,
+              48.805075
+            ],
+            [
+              2.406449,
+              48.805084
+            ],
+            [
+              2.406478,
+              48.805087
+            ],
+            [
+              2.406481,
+              48.805079
+            ],
+            [
+              2.406619,
+              48.805098
+            ],
+            [
+              2.4066171,
+              48.8051036
+            ],
+            [
+              2.4066572,
+              48.8051089
+            ],
+            [
+              2.4066973,
+              48.8051142
+            ],
+            [
+              2.406699,
+              48.805109
+            ],
+            [
+              2.406835,
+              48.805127
+            ],
+            [
+              2.406832,
+              48.805136
+            ],
+            [
+              2.406861,
+              48.805139
+            ],
+            [
+              2.406863,
+              48.805131
+            ],
+            [
+              2.407001,
+              48.80515
+            ],
+            [
+              2.4069994,
+              48.8051551
+            ],
+            [
+              2.4070298,
+              48.8051592
+            ],
+            [
+              2.4069788,
+              48.8053213
+            ],
+            [
+              2.4066335,
+              48.8052749
+            ],
+            [
+              2.4066013,
+              48.8053964
+            ],
+            [
+              2.4065953,
+              48.8054463
+            ]
+          ]
+        ]
+      },
+      "id": "way/740849522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7251280229",
+        "name": "Poste L",
+        "power": "substation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3794714,
+          48.8432522
+        ]
+      },
+      "id": "node/7251280229"
+    }
+  ]
+}

@@ -15,14 +15,26 @@ L.tileLayer('https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
 }).addTo(mapview);
 
 
-if (localStorage.getItem('centrales') == null) {
-    let dataset_path = "https://trosa.io/qgis-tools/data/poste-source.json"
-    fetch(dataset_path)
-	.then((data) => {
-	    localStorage.setItem('centrales', data.json());
-	    data.json().map(feature => centrale_layer.addData(feature));
-	})
-	.catch ((err) => {
-	    console.log(err);
-	});
+const dataset = [
+    {
+	"name": "centrales",
+	"path": "https://trosa.io/qgis-tools/data/poste-source.json"
+    }
+]
+
+for (const d in dataset) {
+    if (localStorage.getItem(d.name) == null) {
+	fetch(d.path)
+	    .then(res => res.json())
+	    .then((data) => {
+		localStorage.setItem(d.name, data);
+		data.features.map(feature => centrale_layer.addData(feature));
+	    })
+	    .catch ((err) => {
+		console.log(err);
+	    });
+    } else {
+	const data = localStorage.getItem(d.name);
+	data.features.map(feature => centrale_layer.addData(feature));
+    }
 }
