@@ -10,6 +10,9 @@
                  [org.clojure/tools.logging  "1.1.0"]
                  [org.clojure/data.csv       "1.0.0"]
                  [prismatic/schema           "1.1.12"]
-                 [environ                    "1.2.0"]]
+                 [environ                    "1.2.0"]
+                 [enlive                     "1.1.6"]
+                 [com.rpl/specter            "1.1.3"]
+                 [com.oscaro/tools-io        "0.3.23"]]
   ;; ----------------------------------------------------------
-  :repl-options {:init-ns extractors.core})
+  :repl-options {:init-ns user})
